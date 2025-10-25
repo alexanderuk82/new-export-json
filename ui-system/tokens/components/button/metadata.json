@@ -1,0 +1,73 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "Button",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:23",
+  "lastModified": "2025-10-25T06:48:23.145Z",
+  "atomicLevel": "atom",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 6,
+    "propertyCount": 1
+  },
+  "properties": [
+    {
+      "name": "state-button",
+      "type": "VARIANT",
+      "values": [
+        "link",
+        "primary",
+        "secondary",
+        "destructive",
+        "outline",
+        "ghost"
+      ],
+      "defaultValue": "primary",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "state-button=primary",
+      "properties": {
+        "state-button": "primary"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:22"
+    },
+    {
+      "name": "state-button=secondary",
+      "properties": {
+        "state-button": "secondary"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:20"
+    },
+    {
+      "name": "state-button=destructive",
+      "properties": {
+        "state-button": "destructive"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:19"
+    },
+    {
+      "name": "state-button=outline",
+      "properties": {
+        "state-button": "outline"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:18"
+    },
+    {
+      "name": "state-button=ghost",
+      "properties": {
+        "state-button": "ghost"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:17"
+    },
+    {
+      "name": "state-button=link",
+      "properties": {
+        "state-button": "link"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:21"
+    }
+  ]
+}

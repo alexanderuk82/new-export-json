@@ -1,0 +1,33 @@
+{
+  "name": "state-button=primary",
+  "fullName": "Button/state-button=primary",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:22",
+  "properties": {
+    "state-button": "primary"
+  },
+  "styles": {
+    "backgroundColor": "{foundations.main-ALEX-button}",
+    "border": "1px solid #1F1F1F",
+    "borderRadius": "{foundations.sizing.size-1}",
+    "padding": "{foundations.sizing.size-2} {foundations.sizing.size-5} {foundations.sizing.size-2} {foundations.sizing.size-5}",
+    "gap": "{foundations.sizing.size-0}",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "color": "{semantics.colour.secondary-button}",
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "fontFamily": "Outfit",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Primary"
+    ],
+    "labels": {
+      "Primary": "Primary"
+    }
+  },
+  "lastModified": "2025-10-25T06:48:23.174Z"
+}
