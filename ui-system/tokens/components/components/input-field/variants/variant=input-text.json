@@ -1,0 +1,33 @@
+{
+  "name": "variant=input-text",
+  "fullName": "input-field/variant=input-text",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=66:89",
+  "properties": {
+    "variant": "input-text"
+  },
+  "styles": {
+    "backgroundColor": "#202020",
+    "borderRadius": "{foundations.sizing.size-1}",
+    "padding": "{foundations.sizing.size-2} {foundations.sizing.size-2} {foundations.sizing.size-2} {foundations.sizing.size-2}",
+    "gap": "8px",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "color": "{foundations.nuevo-colo-ralex}",
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "fontFamily": "Outfit",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Enter text..."
+    ],
+    "labels": {
+      "Enter text...": "Enter text..."
+    },
+    "placeholder": "Enter text..."
+  },
+  "lastModified": "2025-10-25T07:25:44.806Z"
+}

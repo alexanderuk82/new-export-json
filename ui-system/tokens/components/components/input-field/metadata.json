@@ -1,0 +1,41 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "input-field",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=67:112",
+  "lastModified": "2025-10-25T07:25:44.784Z",
+  "atomicLevel": "atom",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 2,
+    "propertyCount": 1
+  },
+  "properties": [
+    {
+      "name": "variant",
+      "type": "VARIANT",
+      "values": [
+        "input-text",
+        "email"
+      ],
+      "defaultValue": "input-text",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "variant=input-text",
+      "properties": {
+        "variant": "input-text"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=66:89"
+    },
+    {
+      "name": "variant=email",
+      "properties": {
+        "variant": "email"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=67:113"
+    }
+  ]
+}
