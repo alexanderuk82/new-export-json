@@ -1,6 +1,6 @@
 # Design System Tokens
 
-Generated from Figma on 10/25/2025, 08:33:01 AM
+Generated from Figma on 10/25/2025, -1:51:42 AM
 
 ## 📁 Structure
 
@@ -56,7 +56,7 @@ Design tokens exported from Figma variables:
 - **Alabaster**: `#fafafa` (color)
 - **AthensGray**: `#f4f4f5` (color)
 - **Black**: `#000000` (color)
-- **Carnation80%**: `#f43f5ecc` (color)
+- **second-button**: `#ef231ccc` (color)
 - **CodGray**: `#1e1e1e` (color)
 - **Concrete**: `#f3f3f3` (color)
 - **Iron**: `#e4e4e7` (color)

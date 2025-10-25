@@ -1,0 +1,92 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "text-area",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=72:111",
+  "lastModified": "2025-10-25T10:49:00.413Z",
+  "atomicLevel": "molecule",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 4,
+    "propertyCount": 1
+  },
+  "properties": [
+    {
+      "name": "variant",
+      "type": "VARIANT",
+      "values": [
+        "default-with-label",
+        "disable",
+        "disable-with-label-disable",
+        "default"
+      ],
+      "defaultValue": "default",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "variant=disable",
+      "properties": {
+        "variant": "disable"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=72:108"
+    },
+    {
+      "name": "variant=default-with-label",
+      "properties": {
+        "variant": "default-with-label"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=72:107"
+    },
+    {
+      "name": "variant=disable-with-label-disable",
+      "properties": {
+        "variant": "disable-with-label-disable"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=72:109"
+    },
+    {
+      "name": "variant=default",
+      "properties": {
+        "variant": "default"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=72:110"
+    }
+  ],
+  "dependencies": [
+    "72:122"
+  ],
+  "composedOf": [
+    {
+      "id": "72:106",
+      "componentId": "72:122",
+      "componentName": "Label",
+      "properties": {
+        "variant": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "styles": {
+        "borderRadius": "0px",
+        "padding": "0px 0px 0px 0px",
+        "gap": "0px",
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start",
+        "color": "#292929",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "fontFamily": "Outfit",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px"
+      }
+    }
+  ]
+}
