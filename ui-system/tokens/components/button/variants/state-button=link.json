@@ -1,0 +1,31 @@
+{
+  "name": "state-button=link",
+  "fullName": "Button/state-button=link",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:21",
+  "properties": {
+    "state-button": "link"
+  },
+  "styles": {
+    "borderRadius": "8px",
+    "padding": "8px 16px 8px 16px",
+    "gap": "0px",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "color": "{semantics.colour.link-button}",
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "fontFamily": "Outfit",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Link"
+    ],
+    "labels": {
+      "Link": "Link"
+    }
+  },
+  "lastModified": "2025-10-25T06:48:23.269Z"
+}

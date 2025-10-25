@@ -1,0 +1,32 @@
+{
+  "name": "state-button=destructive",
+  "fullName": "Button/state-button=destructive",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:19",
+  "properties": {
+    "state-button": "destructive"
+  },
+  "styles": {
+    "backgroundColor": "#541C15",
+    "borderRadius": "8px",
+    "padding": "{foundations.sizing.size-5} {foundations.sizing.size-5} {foundations.sizing.size-5} {foundations.sizing.size-5}",
+    "gap": "0px",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "color": "#EDE9E8",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "fontFamily": "Outfit",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Destructive"
+    ],
+    "labels": {
+      "Destructive": "Destructive"
+    }
+  },
+  "lastModified": "2025-10-25T06:48:23.228Z"
+}

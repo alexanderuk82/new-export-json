@@ -1,0 +1,33 @@
+{
+  "name": "state-button=secondary",
+  "fullName": "Button/state-button=secondary",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:20",
+  "properties": {
+    "state-button": "secondary"
+  },
+  "styles": {
+    "backgroundColor": "{semantics.colour.secondary-button}",
+    "border": "1px solid #292929",
+    "borderRadius": "8px",
+    "padding": "{foundations.sizing.size-2} {foundations.sizing.size-5} {foundations.sizing.size-2} {foundations.sizing.size-5}",
+    "gap": "0px",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "color": "#FAFAFA",
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "fontFamily": "Outfit",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Secondary"
+    ],
+    "labels": {
+      "Secondary": "Secondary"
+    }
+  },
+  "lastModified": "2025-10-25T06:48:23.206Z"
+}

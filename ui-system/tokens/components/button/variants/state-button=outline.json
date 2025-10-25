@@ -1,0 +1,32 @@
+{
+  "name": "state-button=outline",
+  "fullName": "Button/state-button=outline",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=56:18",
+  "properties": {
+    "state-button": "outline"
+  },
+  "styles": {
+    "border": "1px solid {foundations.main-ALEX-button}",
+    "borderRadius": "8px",
+    "padding": "8px 16px 8px 16px",
+    "gap": "0px",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "color": "#202020",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "fontFamily": "Outfit",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Outline"
+    ],
+    "labels": {
+      "Outline": "Outline"
+    }
+  },
+  "lastModified": "2025-10-25T06:48:23.245Z"
+}
