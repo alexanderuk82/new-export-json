@@ -1,0 +1,32 @@
+{
+  "name": "variant=email",
+  "fullName": "input-field/variant=email",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=67:113",
+  "properties": {
+    "variant": "email"
+  },
+  "styles": {
+    "backgroundColor": "#202020",
+    "borderRadius": "{foundations.sizing.size-1}",
+    "padding": "{foundations.sizing.size-2} {foundations.sizing.size-2} {foundations.sizing.size-2} {foundations.sizing.size-2}",
+    "gap": "8px",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "color": "{foundations.nuevo-colo-ralex}",
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "fontFamily": "Outfit",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "*******"
+    ],
+    "labels": {
+      "*******": "*******"
+    }
+  },
+  "lastModified": "2025-10-25T07:25:44.835Z"
+}

@@ -1,0 +1,232 @@
+{
+  "Colors": {
+    "21st-dev": {
+      "Alabaster": {
+        "value": "#fafafa",
+        "type": "color"
+      },
+      "AthensGray": {
+        "value": "#f4f4f5",
+        "type": "color"
+      },
+      "Black": {
+        "value": "#030303",
+        "type": "color"
+      }
+    }
+  },
+  "foundations": {
+    "Alabaster": {
+      "value": "#fafafa",
+      "type": "color"
+    },
+    "AthensGray": {
+      "value": "#f4f4f5",
+      "type": "color"
+    },
+    "Black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "Carnation80%": {
+      "value": "#f43f5ecc",
+      "type": "color"
+    },
+    "CodGray": {
+      "value": "#1e1e1e",
+      "type": "color"
+    },
+    "Concrete": {
+      "value": "#f3f3f3",
+      "type": "color"
+    },
+    "Iron": {
+      "value": "#e4e4e7",
+      "type": "color"
+    },
+    "Iron25%": {
+      "value": "#e4e4e740",
+      "type": "color"
+    },
+    "Jumbo": {
+      "value": "#71717a",
+      "type": "color"
+    },
+    "Manatee": {
+      "value": "#8f8f99",
+      "type": "color"
+    },
+    "RoyalBlue": {
+      "value": "#6841ea",
+      "type": "color"
+    },
+    "MineShaft": {
+      "value": "#ff66ff",
+      "type": "color"
+    },
+    "ScarpaFlow20%": {
+      "value": "#56565f33",
+      "type": "color"
+    },
+    "Shark": {
+      "value": "#27272a",
+      "type": "color"
+    },
+    "SpunPearl": {
+      "value": "#a7a7ae",
+      "type": "color"
+    },
+    "White": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "White0-2%": {
+      "value": "#ffffff01",
+      "type": "color"
+    },
+    "White15%": {
+      "value": "#ffffff26",
+      "type": "color"
+    },
+    "White3%": {
+      "value": "#ffffff08",
+      "type": "color"
+    },
+    "White40%": {
+      "value": "#ffffff66",
+      "type": "color"
+    },
+    "White50%": {
+      "value": "#ffffff80",
+      "type": "color"
+    },
+    "White60%": {
+      "value": "#ffffff99",
+      "type": "color"
+    },
+    "White4%": {
+      "value": "#ffffff0a",
+      "type": "color"
+    },
+    "White8%": {
+      "value": "#ffffff14",
+      "type": "color"
+    },
+    "Woodsmoke": {
+      "value": "#18181b",
+      "type": "color"
+    },
+    "Woodsmoke10%": {
+      "value": "#09090b1a",
+      "type": "color"
+    },
+    "Woodsmoke30%": {
+      "value": "#18181b4d",
+      "type": "color"
+    },
+    "Woodsmoke80%": {
+      "value": "#09090bcc",
+      "type": "color"
+    },
+    "Boulder": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Ebb": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Emperor": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Espresso": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "main-ALEX-button": {
+      "value": "#0b8f5a",
+      "type": "color"
+    },
+    "LightningYellow": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Mystic": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "ParisWhite": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Riptide": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "SilverChalice": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "nuevo-colo-ralex": {
+      "value": "#5637f3",
+      "type": "color"
+    },
+    "sizing": {
+      "size-0": {
+        "value": 4,
+        "type": "float"
+      },
+      "size-1": {
+        "value": 8,
+        "type": "float"
+      },
+      "size-2": {
+        "value": 12,
+        "type": "float"
+      },
+      "size-3": {
+        "value": 16,
+        "type": "float"
+      },
+      "size-4": {
+        "value": 23,
+        "type": "float"
+      },
+      "size-5": {
+        "value": 32,
+        "type": "float"
+      }
+    },
+    "font-family": {
+      "font": {
+        "value": "Outfit",
+        "type": "string"
+      }
+    },
+    "typography": {
+      "h6": {
+        "weight-500": {
+          "value": 500,
+          "type": "float"
+        }
+      }
+    }
+  },
+  "semantics": {
+    "colour": {
+      "main-button": {
+        "value": "{foundations.main-ALEX-button}",
+        "type": "color"
+      },
+      "secondary-button": {
+        "value": "{foundations.MineShaft}",
+        "type": "color"
+      },
+      "link-button": {
+        "value": "{foundations.main-ALEX-button}",
+        "type": "color"
+      }
+    }
+  }
+}
