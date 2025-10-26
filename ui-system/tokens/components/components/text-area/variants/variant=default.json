@@ -10,7 +10,7 @@
     "backgroundColor": "{foundations.nuevo-colo-ralex}",
     "border": "1px solid #292929",
     "borderRadius": "8px",
-    "padding": "{foundations.sizing.size-1} {foundations.sizing.size-2} {foundations.sizing.size-5} {foundations.sizing.size-4}",
+    "padding": "{semantics.spacing.padding-y} {semantics.spacing.padding-x} {semantics.spacing.padding-y} {semantics.spacing.padding-x}",
     "gap": "0px",
     "flexDirection": "row",
     "justifyContent": "center",
@@ -31,5 +31,5 @@
     },
     "placeholder": "Enter your message..."
   },
-  "lastModified": "2025-10-26T04:45:13.220Z"
+  "lastModified": "2025-10-26T05:00:09.353Z"
 }
