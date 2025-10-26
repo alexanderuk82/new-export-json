@@ -1,0 +1,77 @@
+{
+  "name": "variant=default-with-label",
+  "fullName": "text-area/variant=default-with-label",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=72:107",
+  "properties": {
+    "variant": "default-with-label"
+  },
+  "styles": {
+    "backgroundColor": "#242424",
+    "border": "1px solid #292929",
+    "borderRadius": "8px",
+    "padding": "{foundations.sizing.size-1} {foundations.sizing.size-2} {foundations.sizing.size-5} {foundations.sizing.size-4}",
+    "gap": "0px",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "flex-start",
+    "color": "#767676",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontFamily": "Outfit",
+    "lineHeight": "normal",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Message",
+      "Enter your message..."
+    ],
+    "labels": {
+      "Message": "Message",
+      "Enter your message...": "Enter your message..."
+    },
+    "placeholder": "Enter your message..."
+  },
+  "lastModified": "2025-10-26T04:45:13.158Z",
+  "composedOf": [
+    {
+      "id": "72:106",
+      "componentId": "72:122",
+      "componentName": "Label",
+      "properties": {
+        "variant": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "styles": {
+        "borderRadius": "0px",
+        "padding": "0px 0px 0px 0px",
+        "gap": "0px",
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start",
+        "color": "#292929",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "fontFamily": "Outfit",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px"
+      },
+      "content": {
+        "text": [
+          "Message"
+        ],
+        "labels": {
+          "Message": "Message"
+        }
+      }
+    }
+  ]
+}
