@@ -1,6 +1,6 @@
 # Design System Tokens
 
-Generated from Figma on 10/26/2025, 05:02:27 AM
+Generated from Figma on 11/07/2025, 03:31:35 AM
 
 ## 📁 Structure
 
@@ -10,58 +10,40 @@ ui-system/tokens/components/
 │   └── variables.json          # All design tokens (colors, spacing, typography, etc.)
 │
 ├── components/
-│   ├── button/
+│   ├── alert/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
-│   │       ├── state-button=primary.json
-│   │       ├── state-button=secondary.json
+│   │       ├── size=default,-variant=solid,-status=error.json
+│   │       ├── size=default,-variant=solid,-status=neutral.json
 │   │       └── ...
-│   ├── input-field/
+│   ├── alert/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
-│   │       ├── variant=input-text.json
-│   │       ├── variant=email.json
-│   ├── text-area/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── variant=disable.json
-│   │       ├── variant=default-with-label.json
+│   │       ├── size=default,-variant=solid,-status=error.json
+│   │       ├── size=default,-variant=solid,-status=neutral.json
 │   │       └── ...
-│   ├── label/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── variant=default.json
-│   │       ├── variant=disable.json
-│   ├── box/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── property-1=box-active.json
-│   │       ├── property-1=box-disable.json
 │
 └── README.md                   # This file
 ```
 
-## 🎨 Variables (55 total)
+## 🎨 Variables (389 total)
 
 Design tokens exported from Figma variables:
 
-- **21st-dev/Alabaster**: `#fafafa` (color)
-- **21st-dev/AthensGray**: `#f4f4f5` (color)
-- **21st-dev/Black**: `#030303` (color)
-- **text-areat-text**: `#fafafa` (color)
-- **AthensGray**: `#f4f4f5` (color)
-- **Black**: `#000000` (color)
-- **second-button**: `#ef231ccc` (color)
-- **CodGray**: `#1e1e1e` (color)
-- **Concrete**: `#f3f3f3` (color)
-- **Iron**: `#e4e4e7` (color)
+- **gray/50**: `#fafafa` (color)
+- **gray/100**: `#f4f4f5` (color)
+- **gray/200**: `#e4e4e7` (color)
+- **gray/300**: `#d4d4d8` (color)
+- **gray/400**: `#a1a1aa` (color)
+- **gray/500**: `#71717a` (color)
+- **gray/600**: `#52525b` (color)
+- **gray/700**: `#3f3f46` (color)
+- **gray/800**: `#27272a` (color)
+- **gray/900**: `#18181b` (color)
 
-... and 45 more
+... and 379 more
 
 ### Usage Example
 
@@ -73,73 +55,53 @@ const primaryColor = tokens.Colors?.primary?.value;
 const spacing = tokens.Spacing?.base?.value;
 ```
 
-## 🧩 Components (5 total)
+## 🧩 Components (2 total)
 
-### Button
+### Alert
 
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=56:23)
-- **Variants**: 6
-- **Properties**: 1
-- **File**: `components/button/metadata.json`
+Used to communicate a state that affects a system, feature or page.
+
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=130:2296)
+- **Variants**: 60
+- **Properties**: 8
+- **File**: `components/alert/metadata.json`
 
 **Available Properties:**
-- `state-button`: VARIANT (link, primary, secondary, destructive, outline, ghost)
+- `description#130:0`: BOOLEAN
+- `indicator/info#143:190`: INSTANCE_SWAP
+- `indicator/warning#143:251`: INSTANCE_SWAP
+- `indicator/success#143:312`: INSTANCE_SWAP
+- `indicator/custom#143:373`: INSTANCE_SWAP
+- `size`: VARIANT (Default, md, lg)
+- `variant`: VARIANT (solid, subtle, surface, outline)
+- `status`: VARIANT (error, info, warning, success, neutral)
 
 ---
 
-### input-field
+### Alert
 
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=67:112)
-- **Variants**: 2
-- **Properties**: 1
-- **File**: `components/input-field/metadata.json`
-
-**Available Properties:**
-- `variant`: VARIANT (input-text, email)
-
----
-
-### text-area
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=72:111)
-- **Variants**: 4
-- **Properties**: 1
-- **File**: `components/text-area/metadata.json`
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=143:3735)
+- **Variants**: 60
+- **Properties**: 8
+- **File**: `components/alert/metadata.json`
 
 **Available Properties:**
-- `variant`: VARIANT (default-with-label, disable, disable-with-label-disable, default)
-
----
-
-### Label
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=72:122)
-- **Variants**: 2
-- **Properties**: 1
-- **File**: `components/label/metadata.json`
-
-**Available Properties:**
-- `variant`: VARIANT (Default, disable)
-
----
-
-### box
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=72:161)
-- **Variants**: 2
-- **Properties**: 1
-- **File**: `components/box/metadata.json`
-
-**Available Properties:**
-- `Property 1`: VARIANT (box-active, box-disable)
+- `description#130:0`: BOOLEAN
+- `indicator/info#143:190`: INSTANCE_SWAP
+- `indicator/warning#143:251`: INSTANCE_SWAP
+- `indicator/success#143:312`: INSTANCE_SWAP
+- `indicator/custom#143:373`: INSTANCE_SWAP
+- `size`: VARIANT (Default, md, lg)
+- `variant`: VARIANT (solid, subtle, surface, outline)
+- `status`: VARIANT (error, info, warning, success, neutral)
 
 
 ## 🔄 Updates
 
 This export includes:
-- **55** new variables
+- **389** new variables
 - **0** updated variables
-- **5** new components
+- **2** new components
 - **0** updated components
 
 ## 📖 How to Use

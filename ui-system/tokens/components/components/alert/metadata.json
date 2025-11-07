@@ -1,0 +1,739 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "Alert",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3735",
+  "lastModified": "2025-11-07T03:29:45.116Z",
+  "atomicLevel": "organism",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 60,
+    "propertyCount": 8
+  },
+  "properties": [
+    {
+      "name": "description#130:0",
+      "type": "BOOLEAN",
+      "defaultValue": true,
+      "optional": false
+    },
+    {
+      "name": "indicator/info#143:190",
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "119:2463",
+      "optional": true,
+      "preferredValues": [
+        {
+          "name": "674b4b898411f8391233cdb253dccec3dbc22a2d",
+          "id": "674b4b898411f8391233cdb253dccec3dbc22a2d"
+        }
+      ]
+    },
+    {
+      "name": "indicator/warning#143:251",
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "119:1583",
+      "optional": true,
+      "preferredValues": [
+        {
+          "name": "7ad41cc41872809cabdcf5fdaa33f50f81d096e4",
+          "id": "7ad41cc41872809cabdcf5fdaa33f50f81d096e4"
+        },
+        {
+          "name": "124cfdc6fdfba694a65f5a0f973b4c514a026b70",
+          "id": "124cfdc6fdfba694a65f5a0f973b4c514a026b70"
+        },
+        {
+          "name": "075c799224272fd0aba33a61cf12847046038572",
+          "id": "075c799224272fd0aba33a61cf12847046038572"
+        },
+        {
+          "name": "a0ed62373a04acb2507c1378698deb52542be5e0",
+          "id": "a0ed62373a04acb2507c1378698deb52542be5e0"
+        },
+        {
+          "name": "d3375907662da5b05dc47c6baff4269b90ea0d1d",
+          "id": "d3375907662da5b05dc47c6baff4269b90ea0d1d"
+        }
+      ]
+    },
+    {
+      "name": "indicator/success#143:312",
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "119:1601",
+      "optional": true,
+      "preferredValues": [
+        {
+          "name": "e9314f0d728c6ff5cd175a7827a9159d69382115",
+          "id": "e9314f0d728c6ff5cd175a7827a9159d69382115"
+        },
+        {
+          "name": "41fb0b6951dfdfd963cc07873ebe32d249be6fd6",
+          "id": "41fb0b6951dfdfd963cc07873ebe32d249be6fd6"
+        },
+        {
+          "name": "00587f3d2d6e74ea128249ae2e0f956346583ebc",
+          "id": "00587f3d2d6e74ea128249ae2e0f956346583ebc"
+        },
+        {
+          "name": "a61052bb3c8281f736902de9bac85ff77f6a2213",
+          "id": "a61052bb3c8281f736902de9bac85ff77f6a2213"
+        }
+      ]
+    },
+    {
+      "name": "indicator/custom#143:373",
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "119:2969",
+      "optional": true,
+      "preferredValues": [
+        {
+          "name": "65a9c372b2acea2f7611f193c463112d4433cdf6",
+          "id": "65a9c372b2acea2f7611f193c463112d4433cdf6"
+        }
+      ]
+    },
+    {
+      "name": "size",
+      "type": "VARIANT",
+      "values": [
+        "Default",
+        "md",
+        "lg"
+      ],
+      "defaultValue": "Default",
+      "optional": false
+    },
+    {
+      "name": "variant",
+      "type": "VARIANT",
+      "values": [
+        "solid",
+        "subtle",
+        "surface",
+        "outline"
+      ],
+      "defaultValue": "solid",
+      "optional": false
+    },
+    {
+      "name": "status",
+      "type": "VARIANT",
+      "values": [
+        "error",
+        "info",
+        "warning",
+        "success",
+        "neutral"
+      ],
+      "defaultValue": "info",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "size=Default, variant=solid, status=error",
+      "properties": {
+        "size": "Default",
+        "variant": "solid",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3736"
+    },
+    {
+      "name": "size=Default, variant=solid, status=neutral",
+      "properties": {
+        "size": "Default",
+        "variant": "solid",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3742"
+    },
+    {
+      "name": "size=Default, variant=solid, status=info",
+      "properties": {
+        "size": "Default",
+        "variant": "solid",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3748"
+    },
+    {
+      "name": "size=Default, variant=solid, status=warning",
+      "properties": {
+        "size": "Default",
+        "variant": "solid",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3754"
+    },
+    {
+      "name": "size=Default, variant=solid, status=success",
+      "properties": {
+        "size": "Default",
+        "variant": "solid",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3760"
+    },
+    {
+      "name": "size=Default, variant=subtle, status=error",
+      "properties": {
+        "size": "Default",
+        "variant": "subtle",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3766"
+    },
+    {
+      "name": "size=Default, variant=subtle, status=neutral",
+      "properties": {
+        "size": "Default",
+        "variant": "subtle",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3772"
+    },
+    {
+      "name": "size=Default, variant=subtle, status=info",
+      "properties": {
+        "size": "Default",
+        "variant": "subtle",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3778"
+    },
+    {
+      "name": "size=Default, variant=subtle, status=warning",
+      "properties": {
+        "size": "Default",
+        "variant": "subtle",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3784"
+    },
+    {
+      "name": "size=Default, variant=subtle, status=success",
+      "properties": {
+        "size": "Default",
+        "variant": "subtle",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3790"
+    },
+    {
+      "name": "size=Default, variant=surface, status=error",
+      "properties": {
+        "size": "Default",
+        "variant": "surface",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3796"
+    },
+    {
+      "name": "size=Default, variant=surface, status=neutral",
+      "properties": {
+        "size": "Default",
+        "variant": "surface",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3802"
+    },
+    {
+      "name": "size=Default, variant=surface, status=info",
+      "properties": {
+        "size": "Default",
+        "variant": "surface",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3808"
+    },
+    {
+      "name": "size=Default, variant=surface, status=warning",
+      "properties": {
+        "size": "Default",
+        "variant": "surface",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3814"
+    },
+    {
+      "name": "size=Default, variant=surface, status=success",
+      "properties": {
+        "size": "Default",
+        "variant": "surface",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3820"
+    },
+    {
+      "name": "size=Default, variant=outline, status=error",
+      "properties": {
+        "size": "Default",
+        "variant": "outline",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3826"
+    },
+    {
+      "name": "size=Default, variant=outline, status=neutral",
+      "properties": {
+        "size": "Default",
+        "variant": "outline",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3832"
+    },
+    {
+      "name": "size=Default, variant=outline, status=info",
+      "properties": {
+        "size": "Default",
+        "variant": "outline",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3838"
+    },
+    {
+      "name": "size=Default, variant=outline, status=warning",
+      "properties": {
+        "size": "Default",
+        "variant": "outline",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3844"
+    },
+    {
+      "name": "size=Default, variant=outline, status=success",
+      "properties": {
+        "size": "Default",
+        "variant": "outline",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3850"
+    },
+    {
+      "name": "size=md, variant=solid, status=error",
+      "properties": {
+        "size": "md",
+        "variant": "solid",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3856"
+    },
+    {
+      "name": "size=md, variant=solid, status=neutral",
+      "properties": {
+        "size": "md",
+        "variant": "solid",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3862"
+    },
+    {
+      "name": "size=md, variant=solid, status=info",
+      "properties": {
+        "size": "md",
+        "variant": "solid",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3868"
+    },
+    {
+      "name": "size=md, variant=solid, status=warning",
+      "properties": {
+        "size": "md",
+        "variant": "solid",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3874"
+    },
+    {
+      "name": "size=md, variant=solid, status=success",
+      "properties": {
+        "size": "md",
+        "variant": "solid",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3880"
+    },
+    {
+      "name": "size=md, variant=subtle, status=error",
+      "properties": {
+        "size": "md",
+        "variant": "subtle",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3886"
+    },
+    {
+      "name": "size=md, variant=subtle, status=neutral",
+      "properties": {
+        "size": "md",
+        "variant": "subtle",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3892"
+    },
+    {
+      "name": "size=md, variant=subtle, status=info",
+      "properties": {
+        "size": "md",
+        "variant": "subtle",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3898"
+    },
+    {
+      "name": "size=md, variant=subtle, status=warning",
+      "properties": {
+        "size": "md",
+        "variant": "subtle",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3904"
+    },
+    {
+      "name": "size=md, variant=subtle, status=success",
+      "properties": {
+        "size": "md",
+        "variant": "subtle",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3910"
+    },
+    {
+      "name": "size=md, variant=surface, status=error",
+      "properties": {
+        "size": "md",
+        "variant": "surface",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3916"
+    },
+    {
+      "name": "size=md, variant=surface, status=neutral",
+      "properties": {
+        "size": "md",
+        "variant": "surface",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3922"
+    },
+    {
+      "name": "size=md, variant=surface, status=info",
+      "properties": {
+        "size": "md",
+        "variant": "surface",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3928"
+    },
+    {
+      "name": "size=md, variant=surface, status=warning",
+      "properties": {
+        "size": "md",
+        "variant": "surface",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3934"
+    },
+    {
+      "name": "size=md, variant=surface, status=success",
+      "properties": {
+        "size": "md",
+        "variant": "surface",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3940"
+    },
+    {
+      "name": "size=md, variant=outline, status=error",
+      "properties": {
+        "size": "md",
+        "variant": "outline",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3946"
+    },
+    {
+      "name": "size=md, variant=outline, status=neutral",
+      "properties": {
+        "size": "md",
+        "variant": "outline",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3952"
+    },
+    {
+      "name": "size=md, variant=outline, status=info",
+      "properties": {
+        "size": "md",
+        "variant": "outline",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3958"
+    },
+    {
+      "name": "size=md, variant=outline, status=warning",
+      "properties": {
+        "size": "md",
+        "variant": "outline",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3964"
+    },
+    {
+      "name": "size=md, variant=outline, status=success",
+      "properties": {
+        "size": "md",
+        "variant": "outline",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3970"
+    },
+    {
+      "name": "size=lg, variant=solid, status=error",
+      "properties": {
+        "size": "lg",
+        "variant": "solid",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3976"
+    },
+    {
+      "name": "size=lg, variant=solid, status=neutral",
+      "properties": {
+        "size": "lg",
+        "variant": "solid",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3982"
+    },
+    {
+      "name": "size=lg, variant=solid, status=info",
+      "properties": {
+        "size": "lg",
+        "variant": "solid",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3988"
+    },
+    {
+      "name": "size=lg, variant=solid, status=warning",
+      "properties": {
+        "size": "lg",
+        "variant": "solid",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3994"
+    },
+    {
+      "name": "size=lg, variant=solid, status=success",
+      "properties": {
+        "size": "lg",
+        "variant": "solid",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4000"
+    },
+    {
+      "name": "size=lg, variant=subtle, status=error",
+      "properties": {
+        "size": "lg",
+        "variant": "subtle",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4006"
+    },
+    {
+      "name": "size=lg, variant=subtle, status=neutral",
+      "properties": {
+        "size": "lg",
+        "variant": "subtle",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4012"
+    },
+    {
+      "name": "size=lg, variant=subtle, status=info",
+      "properties": {
+        "size": "lg",
+        "variant": "subtle",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4018"
+    },
+    {
+      "name": "size=lg, variant=subtle, status=warning",
+      "properties": {
+        "size": "lg",
+        "variant": "subtle",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4024"
+    },
+    {
+      "name": "size=lg, variant=subtle, status=success",
+      "properties": {
+        "size": "lg",
+        "variant": "subtle",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4030"
+    },
+    {
+      "name": "size=lg, variant=surface, status=error",
+      "properties": {
+        "size": "lg",
+        "variant": "surface",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4036"
+    },
+    {
+      "name": "size=lg, variant=surface, status=neutral",
+      "properties": {
+        "size": "lg",
+        "variant": "surface",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4042"
+    },
+    {
+      "name": "size=lg, variant=surface, status=info",
+      "properties": {
+        "size": "lg",
+        "variant": "surface",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4048"
+    },
+    {
+      "name": "size=lg, variant=surface, status=warning",
+      "properties": {
+        "size": "lg",
+        "variant": "surface",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4054"
+    },
+    {
+      "name": "size=lg, variant=surface, status=success",
+      "properties": {
+        "size": "lg",
+        "variant": "surface",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4060"
+    },
+    {
+      "name": "size=lg, variant=outline, status=error",
+      "properties": {
+        "size": "lg",
+        "variant": "outline",
+        "status": "error"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4066"
+    },
+    {
+      "name": "size=lg, variant=outline, status=neutral",
+      "properties": {
+        "size": "lg",
+        "variant": "outline",
+        "status": "neutral"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4072"
+    },
+    {
+      "name": "size=lg, variant=outline, status=info",
+      "properties": {
+        "size": "lg",
+        "variant": "outline",
+        "status": "info"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4078"
+    },
+    {
+      "name": "size=lg, variant=outline, status=warning",
+      "properties": {
+        "size": "lg",
+        "variant": "outline",
+        "status": "warning"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4084"
+    },
+    {
+      "name": "size=lg, variant=outline, status=success",
+      "properties": {
+        "size": "lg",
+        "variant": "outline",
+        "status": "success"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4090"
+    }
+  ],
+  "dependencies": [
+    "119:1583",
+    "119:2969",
+    "119:2463",
+    "119:1601"
+  ],
+  "composedOf": [
+    {
+      "id": "143:3738",
+      "componentId": "119:1583",
+      "componentName": "circle-alert",
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--size-tokens-size-3_5, 14px)",
+        "height": "var(--size-tokens-size-3_5, 14px)"
+      }
+    },
+    {
+      "id": "143:3744",
+      "componentId": "119:2969",
+      "componentName": "party-popper",
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--size-tokens-size-3_5, 14px)",
+        "height": "var(--size-tokens-size-3_5, 14px)"
+      }
+    },
+    {
+      "id": "143:3750",
+      "componentId": "119:2463",
+      "componentName": "info",
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--size-tokens-size-3_5, 14px)",
+        "height": "var(--size-tokens-size-3_5, 14px)"
+      }
+    },
+    {
+      "id": "143:3762",
+      "componentId": "119:1601",
+      "componentName": "circle-check",
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--size-tokens-size-3_5, 14px)",
+        "height": "var(--size-tokens-size-3_5, 14px)"
+      }
+    }
+  ]
+}

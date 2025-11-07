@@ -1,0 +1,48 @@
+{
+  "name": "size=md, variant=subtle, status=warning",
+  "fullName": "Alert/size=md, variant=subtle, status=warning",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3904",
+  "properties": {
+    "size": "md",
+    "variant": "subtle",
+    "status": "warning"
+  },
+  "styles": {
+    "width": "var(--size-tokens-size-5, 20px)",
+    "height": "var(--size-tokens-size-5, 20px)",
+    "padding": "1px 1px 1px 1px",
+    "gap": "10px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "center"
+  },
+  "content": {
+    "text": [
+      "This is the title",
+      "Write any description here if you want"
+    ],
+    "labels": {
+      "title": "This is the title",
+      "description": "Write any description here if you want"
+    }
+  },
+  "lastModified": "2025-11-07T03:29:46.715Z",
+  "composedOf": [
+    {
+      "id": "143:3906",
+      "componentId": "119:1583",
+      "componentName": "circle-alert",
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--size-tokens-size-4_5, 18px)",
+        "height": "var(--size-tokens-size-4_5, 18px)"
+      }
+    }
+  ]
+}

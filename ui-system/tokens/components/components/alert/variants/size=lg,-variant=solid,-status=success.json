@@ -1,0 +1,42 @@
+{
+  "name": "size=lg, variant=solid, status=success",
+  "fullName": "Alert/size=lg, variant=solid, status=success",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:4000",
+  "properties": {
+    "size": "lg",
+    "variant": "solid",
+    "status": "success"
+  },
+  "styles": {
+    "width": "var(--size-tokens-size-6, 24px)",
+    "height": "var(--size-tokens-size-6, 24px)"
+  },
+  "content": {
+    "text": [
+      "This is the title",
+      "Write any description here if you want"
+    ],
+    "labels": {
+      "title": "This is the title",
+      "description": "Write any description here if you want"
+    }
+  },
+  "lastModified": "2025-11-07T03:29:47.498Z",
+  "composedOf": [
+    {
+      "id": "143:4002",
+      "componentId": "119:1601",
+      "componentName": "circle-check",
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--size-tokens-size-5, 20px)",
+        "height": "var(--size-tokens-size-5, 20px)"
+      }
+    }
+  ]
+}

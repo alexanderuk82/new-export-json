@@ -1,0 +1,48 @@
+{
+  "name": "size=Default, variant=solid, status=neutral",
+  "fullName": "Alert/size=Default, variant=solid, status=neutral",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=143:3742",
+  "properties": {
+    "size": "Default",
+    "variant": "solid",
+    "status": "neutral"
+  },
+  "styles": {
+    "width": "var(--size-tokens-size-4, 16px)",
+    "height": "var(--size-tokens-size-4, 16px)",
+    "padding": "1px 1px 1px 1px",
+    "gap": "10px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "center"
+  },
+  "content": {
+    "text": [
+      "This is the title",
+      "Write any description here if you want"
+    ],
+    "labels": {
+      "title": "This is the title",
+      "description": "Write any description here if you want"
+    }
+  },
+  "lastModified": "2025-11-07T03:29:45.219Z",
+  "composedOf": [
+    {
+      "id": "143:3744",
+      "componentId": "119:2969",
+      "componentName": "party-popper",
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--size-tokens-size-3_5, 14px)",
+        "height": "var(--size-tokens-size-3_5, 14px)"
+      }
+    }
+  ]
+}
