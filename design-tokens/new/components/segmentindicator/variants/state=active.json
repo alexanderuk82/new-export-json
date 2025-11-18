@@ -1,0 +1,44 @@
+{
+  "name": "state=active",
+  "fullName": "SegmentIndicator/state=active",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003185:4666",
+  "properties": {
+    "state": "active"
+  },
+  "styles": {
+    "backgroundColor": "var(--components-segmented-control-segmented-indicator-active-color-bg-color, {primitives.colour.palette.gray.white})",
+    "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+    "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px)",
+    "gap": "var(--semantics-spacing-gap-gap-none, {primitives.sizing.size-none}px)",
+    "boxShadow": "0px 2px 4px 0px rgba(24, 24, 27, 0.10000000149011612), 0px 0px 1px 0px rgba(24, 24, 27, 0.30000001192092896)",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center"
+  },
+  "lastModified": "2025-11-18T04:49:00.472Z",
+  "composedOf": [
+    {
+      "id": "40003185:4664",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "view-list",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    }
+  ]
+}

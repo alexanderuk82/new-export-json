@@ -1,0 +1,131 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "DrawerItem",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003427:3423",
+  "lastModified": "2025-11-18T04:49:00.615Z",
+  "atomicLevel": "organism",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 3,
+    "propertyCount": 3
+  },
+  "properties": [
+    {
+      "name": "Title#40003427:0",
+      "type": "TEXT",
+      "defaultValue": "Title",
+      "optional": false
+    },
+    {
+      "name": "Description#40003427:4",
+      "type": "TEXT",
+      "defaultValue": "Description",
+      "optional": false
+    },
+    {
+      "name": "Variant",
+      "type": "VARIANT",
+      "values": [
+        "item",
+        "radio",
+        "toggle"
+      ],
+      "defaultValue": "item",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "Variant=item",
+      "properties": {
+        "Variant": "item"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003427:3422"
+    },
+    {
+      "name": "Variant=toggle",
+      "properties": {
+        "Variant": "toggle"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003427:3421"
+    },
+    {
+      "name": "Variant=radio",
+      "properties": {
+        "Variant": "radio"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003427:3420"
+    }
+  ],
+  "dependencies": [
+    "40002473:8294",
+    "40003262:3369",
+    "40003493:808"
+  ],
+  "composedOf": [
+    {
+      "id": "40003367:9009",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Arrow Right",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 321,
+        "y": 28
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "40003367:9122",
+      "componentId": "40003262:3369",
+      "componentName": "Toggle Element",
+      "properties": {
+        "State": {
+          "value": "Off",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 295,
+        "y": 16
+      }
+    },
+    {
+      "id": "40003534:16362",
+      "componentId": "40003493:808",
+      "componentName": "Radio Button Element",
+      "properties": {
+        "State": {
+          "value": "Off",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 16,
+        "y": 16
+      },
+      "styles": {
+        "backgroundColor": "var(--components-input-text-field-bg-color, {primitives.colour.palette.gray.white})",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "borderRadius": "12px",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "state=focus",
+  "fullName": "Tabs.Trigger/state=focus",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:7758",
+  "properties": {
+    "state": "focus"
+  },
+  "styles": {
+    "border": "2px solid var(--components-tabs-trigger-focus-border-color, {primitives.colour.palette.gray.800})",
+    "height": "var(--primitives-sizing-size-4, {sizing.size-4}px)",
+    "borderRadius": "var(--components-input-common-border-radius, {semantics.border-radius.border-radius-0}px)",
+    "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+    "gap": "var(--semantics-spacing-gap-gap-none, {primitives.sizing.size-none}px)",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "color": "var(--components-tabs-trigger-common-font-color, {primitives.colour.palette.gray.800})",
+    "fontSize": "15px",
+    "fontWeight": "600",
+    "fontFamily": "Open Sans",
+    "lineHeight": "normal",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Label"
+    ],
+    "labels": {
+      "Label Text": "Label"
+    }
+  },
+  "lastModified": "2025-11-18T04:49:00.349Z"
+}

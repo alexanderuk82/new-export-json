@@ -1,0 +1,34 @@
+{
+  "name": "state=disabled",
+  "fullName": "Tabs.Trigger/state=disabled",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:7959",
+  "properties": {
+    "state": "disabled"
+  },
+  "styles": {
+    "height": "var(--primitives-sizing-size-4, {sizing.size-4}px)",
+    "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+    "gap": "var(--semantics-spacing-gap-gap-none, {primitives.sizing.size-none}px)",
+    "boxShadow": "0px 1px 2px 0px rgba(24, 24, 27, 0.10000000149011612), 0px 0px 1px 0px rgba(24, 24, 27, 0.20000000298023224)",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "color": "var(--components-tabs-trigger-disabled-font-color, {primitives.colour.brand.disable})",
+    "fontSize": "15px",
+    "fontWeight": "600",
+    "fontFamily": "Open Sans",
+    "lineHeight": "normal",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Label"
+    ],
+    "labels": {
+      "Label Text": "Label"
+    }
+  },
+  "lastModified": "2025-11-18T04:49:00.449Z"
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "Data Cells",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:12764",
+  "lastModified": "2025-11-18T04:49:00.549Z",
+  "atomicLevel": "molecule",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 2,
+    "propertyCount": 3
+  },
+  "properties": [
+    {
+      "name": "Show Icon after#40003191:38",
+      "type": "BOOLEAN",
+      "defaultValue": true,
+      "optional": false
+    },
+    {
+      "name": "Text#40003664:0",
+      "type": "TEXT",
+      "defaultValue": "Text",
+      "optional": false
+    },
+    {
+      "name": "type",
+      "type": "VARIANT",
+      "values": [
+        "endAlign",
+        "startAlign"
+      ],
+      "defaultValue": "startAlign",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "type=startAlign",
+      "properties": {
+        "type": "startAlign"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:12765"
+    },
+    {
+      "name": "type=endAlign",
+      "properties": {
+        "type": "endAlign"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:12768"
+    }
+  ],
+  "dependencies": [
+    "40002473:8294"
+  ],
+  "composedOf": [
+    {
+      "id": "40003191:7607",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Copy",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 131,
+        "y": 0
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    }
+  ]
+}

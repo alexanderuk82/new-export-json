@@ -1,0 +1,1106 @@
+{
+  "name": "State=Default",
+  "fullName": "PortfolioList/State=Default",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003194:5123",
+  "properties": {
+    "State": "Default"
+  },
+  "styles": {
+    "backgroundColor": "var(--components-card-color-bg-color, {primitives.colour.palette.gray.white})",
+    "borderRadius": "var(--semantics-border-radius-border-radius-0, {primitives.sizing.size-0}px)",
+    "padding": "var(--semantics-spacing-padding-padding-1, {primitives.sizing.size-1}px) var(--semantics-spacing-padding-padding-1, {primitives.sizing.size-1}px) var(--semantics-spacing-padding-padding-1, {primitives.sizing.size-1}px) var(--semantics-spacing-padding-padding-1, {primitives.sizing.size-1}px)",
+    "gap": "var(--semantics-spacing-gap-gap-1, {primitives.sizing.size-1}px)",
+    "boxShadow": "0px 4px 8px 0px rgba(24, 24, 27, 0.10000000149011612), 0px 0px 1px 0px rgba(24, 24, 27, 0.30000001192092896)",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "flex-start",
+    "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+    "fontSize": "20px",
+    "fontWeight": "600",
+    "fontFamily": "Open Sans",
+    "lineHeight": "normal",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Portfolio",
+      "All Types",
+      "Sort by A-Z",
+      "Name",
+      "TKR",
+      "£527.26",
+      "£93 (+7.45%)",
+      "Name",
+      "TKR",
+      "£527.26",
+      "£93 (+7.45%)",
+      "Name",
+      "TKR",
+      "£527.26",
+      "£93 (+7.45%)",
+      "Name",
+      "TKR",
+      "£527.26",
+      "£93 (+7.45%)",
+      "Name",
+      "TKR",
+      "£527.26",
+      "£93 (+7.45%)"
+    ],
+    "labels": {
+      "Title": "Portfolio",
+      "Placeholder": "All Types",
+      "Button": "Sort by A-Z",
+      "Name": "Name",
+      "Ticker": "TKR",
+      "Value": "£527.26",
+      "Up by value": "£93 (+7.45%)"
+    },
+    "placeholder": "Portfolio"
+  },
+  "lastModified": "2025-11-18T04:49:01.670Z",
+  "composedOf": [
+    {
+      "id": "40003185:2371",
+      "componentId": "40002473:8369",
+      "componentName": "Icon Button/Solid",
+      "properties": {
+        "State": {
+          "value": "Master",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 289,
+        "y": 0
+      },
+      "styles": {
+        "backgroundColor": "var(--components-button-primary-solid-bg-color, {primitives.colour.palette.red.base})",
+        "borderRadius": "var(--components-button-common-border-radius, {semantics.border-radius.border-radius-2}px)",
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    {
+      "id": "I40003185:2371;40002471:3882",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Search",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "40003266:3112",
+      "componentId": "40003540:3057",
+      "componentName": "DropDownFilter",
+      "properties": {
+        "input-content#40003664:7": {
+          "value": "All Types",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Enabled",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "styles": {
+        "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-half, {primitives.sizing.size-half}px)",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start",
+        "borderWidth": "0px 0px 0px 3px",
+        "color": "var(--components-drop-down-filter-color-placeholder-font-color, {primitives.colour.brand.disable})",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px",
+        "backgroundColor": "var(--components-drop-down-filter-color-bg-color, {primitives.colour.palette.gray.white})",
+        "border": "2px solid var(--components-drop-down-filter-color-border-color, {primitives.colour.brand.colour-2})",
+        "borderRadius": "var(--semantics-border-radius-border-radius-0, {primitives.sizing.size-0}px)"
+      },
+      "content": {
+        "text": [
+          "All Types"
+        ],
+        "labels": {
+          "Placeholder": "All Types"
+        },
+        "placeholder": "All Types"
+      }
+    },
+    {
+      "id": "I40003266:3112;40003642:3920",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Down",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 185,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "40003194:7898",
+      "componentId": "40003185:4672",
+      "componentName": "SegmentedControl/Active",
+      "position": {
+        "x": 241,
+        "y": 0
+      },
+      "styles": {
+        "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+        "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-none, {primitives.sizing.size-none}px)",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "flex-end",
+        "alignItems": "flex-start",
+        "backgroundColor": "var(--components-segmented-control-color-bg-color, {primitives.colour.palette.gray.50})",
+        "border": "1px solid var(--components-segmented-control-color-border, {primitives.colour.palette.gray.100})"
+      }
+    },
+    {
+      "id": "I40003194:7898;40003194:7694",
+      "componentId": "40003185:4667",
+      "componentName": "SegmentIndicator",
+      "properties": {
+        "state": {
+          "value": "active",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "styles": {
+        "backgroundColor": "var(--components-segmented-control-segmented-indicator-active-color-bg-color, {primitives.colour.palette.gray.white})",
+        "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px)",
+        "gap": "var(--semantics-spacing-gap-gap-none, {primitives.sizing.size-none}px)",
+        "boxShadow": "0px 2px 4px 0px rgba(24, 24, 27, 0.10000000149011612), 0px 0px 1px 0px rgba(24, 24, 27, 0.30000001192092896)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    {
+      "id": "I40003194:7898;40003194:7694;40003185:4664",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "view-list",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "I40003194:7898;40003194:7698",
+      "componentId": "40003185:4667",
+      "componentName": "SegmentIndicator",
+      "properties": {
+        "state": {
+          "value": "inactive",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 48,
+        "y": 0
+      },
+      "styles": {
+        "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px)",
+        "gap": "var(--semantics-spacing-gap-gap-none, {primitives.sizing.size-none}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "id": "I40003194:7898;40003194:7698;40003194:7678",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "view-grid",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "40003253:3205",
+      "componentId": "40003664:7838",
+      "componentName": "GhostFilter",
+      "properties": {
+        "State": {
+          "value": "Active",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 218,
+        "y": 0
+      },
+      "styles": {
+        "backgroundColor": "var(--components-ghost-filter-common-color-bg, {primitives.colour.transparent})",
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-0, {primitives.sizing.size-0}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "color": "var(--components-ghost-filter-active-color, {primitives.colour.palette.red.base})",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px"
+      },
+      "content": {
+        "text": [
+          "Sort by A-Z"
+        ],
+        "labels": {
+          "Button": "Sort by A-Z"
+        }
+      }
+    },
+    {
+      "id": "I40003253:3205;40003194:5599",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Down",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 87,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "40003185:2331",
+      "componentId": "40003465:7623",
+      "componentName": "PortfolioListItem",
+      "properties": {
+        "Value#40003664:11": {
+          "value": "£527.26",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Ticker#40003465:9": {
+          "value": "TKR",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Name#40003465:8": {
+          "value": "Name",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Simple",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "styles": {
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "56px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px"
+      },
+      "content": {
+        "text": [
+          "Name",
+          "TKR",
+          "£527.26",
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Name": "Name",
+          "Ticker": "TKR",
+          "Value": "£527.26",
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003185:2331;40003185:4674",
+      "componentId": "40003185:4673",
+      "componentName": "ItemIcon",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "I40003185:2331;40003185:2123",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Right",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 48,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    },
+    {
+      "id": "I40003185:2331;40003185:4686",
+      "componentId": "40003185:4681",
+      "componentName": "Badge",
+      "properties": {
+        "Size": {
+          "value": "xs",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 24
+      },
+      "styles": {
+        "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+        "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-half, {primitives.sizing.size-half}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px",
+        "backgroundColor": "#FFFFFF"
+      },
+      "content": {
+        "text": [
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003185:2331;40003185:4686;40003185:4683",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Arrow Up",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    },
+    {
+      "id": "40003236:1048",
+      "componentId": "40003465:7623",
+      "componentName": "PortfolioListItem",
+      "properties": {
+        "Value#40003664:11": {
+          "value": "£527.26",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Ticker#40003465:9": {
+          "value": "TKR",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Name#40003465:8": {
+          "value": "Name",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Simple",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 68
+      },
+      "styles": {
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "56px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px"
+      },
+      "content": {
+        "text": [
+          "Name",
+          "TKR",
+          "£527.26",
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Name": "Name",
+          "Ticker": "TKR",
+          "Value": "£527.26",
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003236:1048;40003185:4674",
+      "componentId": "40003185:4673",
+      "componentName": "ItemIcon",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "I40003236:1048;40003185:2123",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Right",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 48,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    },
+    {
+      "id": "I40003236:1048;40003185:4686",
+      "componentId": "40003185:4681",
+      "componentName": "Badge",
+      "properties": {
+        "Size": {
+          "value": "xs",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 24
+      },
+      "styles": {
+        "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+        "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-half, {primitives.sizing.size-half}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px",
+        "backgroundColor": "#FFFFFF"
+      },
+      "content": {
+        "text": [
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003236:1048;40003185:4686;40003185:4683",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Arrow Up",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    },
+    {
+      "id": "40003236:1081",
+      "componentId": "40003465:7623",
+      "componentName": "PortfolioListItem",
+      "properties": {
+        "Value#40003664:11": {
+          "value": "£527.26",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Ticker#40003465:9": {
+          "value": "TKR",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Name#40003465:8": {
+          "value": "Name",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Simple",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 136
+      },
+      "styles": {
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "56px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px"
+      },
+      "content": {
+        "text": [
+          "Name",
+          "TKR",
+          "£527.26",
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Name": "Name",
+          "Ticker": "TKR",
+          "Value": "£527.26",
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003236:1081;40003185:4674",
+      "componentId": "40003185:4673",
+      "componentName": "ItemIcon",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "I40003236:1081;40003185:2123",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Right",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 48,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    },
+    {
+      "id": "I40003236:1081;40003185:4686",
+      "componentId": "40003185:4681",
+      "componentName": "Badge",
+      "properties": {
+        "Size": {
+          "value": "xs",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 24
+      },
+      "styles": {
+        "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+        "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-half, {primitives.sizing.size-half}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px",
+        "backgroundColor": "#FFFFFF"
+      },
+      "content": {
+        "text": [
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003236:1081;40003185:4686;40003185:4683",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Arrow Up",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    },
+    {
+      "id": "40003236:1114",
+      "componentId": "40003465:7623",
+      "componentName": "PortfolioListItem",
+      "properties": {
+        "Value#40003664:11": {
+          "value": "£527.26",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Ticker#40003465:9": {
+          "value": "TKR",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Name#40003465:8": {
+          "value": "Name",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Simple",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 204
+      },
+      "styles": {
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "56px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px"
+      },
+      "content": {
+        "text": [
+          "Name",
+          "TKR",
+          "£527.26",
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Name": "Name",
+          "Ticker": "TKR",
+          "Value": "£527.26",
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003236:1114;40003185:4674",
+      "componentId": "40003185:4673",
+      "componentName": "ItemIcon",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "I40003236:1114;40003185:2123",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Right",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 48,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    },
+    {
+      "id": "I40003236:1114;40003185:4686",
+      "componentId": "40003185:4681",
+      "componentName": "Badge",
+      "properties": {
+        "Size": {
+          "value": "xs",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 24
+      },
+      "styles": {
+        "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+        "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-half, {primitives.sizing.size-half}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px",
+        "backgroundColor": "#FFFFFF"
+      },
+      "content": {
+        "text": [
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003236:1114;40003185:4686;40003185:4683",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Arrow Up",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    },
+    {
+      "id": "40003236:1147",
+      "componentId": "40003465:7623",
+      "componentName": "PortfolioListItem",
+      "properties": {
+        "Value#40003664:11": {
+          "value": "£527.26",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Ticker#40003465:9": {
+          "value": "TKR",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Name#40003465:8": {
+          "value": "Name",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Simple",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 272
+      },
+      "styles": {
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "56px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px"
+      },
+      "content": {
+        "text": [
+          "Name",
+          "TKR",
+          "£527.26",
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Name": "Name",
+          "Ticker": "TKR",
+          "Value": "£527.26",
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003236:1147;40003185:4674",
+      "componentId": "40003185:4673",
+      "componentName": "ItemIcon",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "I40003236:1147;40003185:2123",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Right",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 48,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    },
+    {
+      "id": "I40003236:1147;40003185:4686",
+      "componentId": "40003185:4681",
+      "componentName": "Badge",
+      "properties": {
+        "Size": {
+          "value": "xs",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 24
+      },
+      "styles": {
+        "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+        "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-half, {primitives.sizing.size-half}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px",
+        "backgroundColor": "#FFFFFF"
+      },
+      "content": {
+        "text": [
+          "£93 (+7.45%)"
+        ],
+        "labels": {
+          "Up by value": "£93 (+7.45%)"
+        }
+      }
+    },
+    {
+      "id": "I40003236:1147;40003185:4686;40003185:4683",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Arrow Up",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)",
+        "height": "var(--semantics-sizing-icon-size-1, {primitives.sizing.size-1}px)"
+      }
+    }
+  ]
+}

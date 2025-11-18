@@ -1,0 +1,116 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "Header Cells",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:12789",
+  "lastModified": "2025-11-18T04:49:00.502Z",
+  "atomicLevel": "molecule",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 3,
+    "propertyCount": 2
+  },
+  "properties": [
+    {
+      "name": "Header#40003664:3",
+      "type": "TEXT",
+      "defaultValue": "Header",
+      "optional": false
+    },
+    {
+      "name": "type",
+      "type": "VARIANT",
+      "values": [
+        "checkbox",
+        "endAlign",
+        "startAlign"
+      ],
+      "defaultValue": "startAlign",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "type=startAlign",
+      "properties": {
+        "type": "startAlign"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:12790"
+    },
+    {
+      "name": "type=endAlign",
+      "properties": {
+        "type": "endAlign"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:12792"
+    },
+    {
+      "name": "type=checkbox",
+      "properties": {
+        "type": "checkbox"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:12794"
+    }
+  ],
+  "dependencies": [
+    "40003172:8061"
+  ],
+  "composedOf": [
+    {
+      "id": "40003172:12795",
+      "componentId": "40003172:8061",
+      "componentName": "Checkmark",
+      "properties": {
+        "size": {
+          "value": "md",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "variant": {
+          "value": "solid",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "colorPalette": {
+          "value": "gray",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        ".isChecked?": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        ".isDisabled?": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        ".isIndeterminate?": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        ".isInvalid?": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "border": "1px solid var(--components-input-text-field-font-color-active, {primitives.colour.brand.colour-2})",
+        "borderRadius": "2px",
+        "gap": "10px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "center"
+      }
+    }
+  ]
+}

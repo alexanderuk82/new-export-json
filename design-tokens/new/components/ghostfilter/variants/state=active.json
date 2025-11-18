@@ -1,0 +1,56 @@
+{
+  "name": "State=Active",
+  "fullName": "GhostFilter/State=Active",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003253:3204",
+  "properties": {
+    "State": "Active"
+  },
+  "styles": {
+    "border": "Symbol(figma.mixed)px solid var(--components-ghost-filter-active-color, {primitives.colour.palette.red.base})",
+    "gap": "var(--semantics-spacing-gap-gap-none, {primitives.sizing.size-none}px)",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "borderWidth": "0px 0px 2px 0px",
+    "color": "var(--components-ghost-filter-active-color, {primitives.colour.palette.red.base})",
+    "fontSize": "15px",
+    "fontWeight": "600",
+    "fontFamily": "Open Sans",
+    "lineHeight": "normal",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Sort by A-Z"
+    ],
+    "labels": {
+      "Button": "Sort by A-Z"
+    }
+  },
+  "lastModified": "2025-11-18T04:49:02.601Z",
+  "composedOf": [
+    {
+      "id": "40003194:5599",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Down",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 87,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    }
+  ]
+}
