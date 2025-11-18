@@ -1,0 +1,49 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "ProgressBar",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003367:8810",
+  "lastModified": "2025-11-18T04:49:00.581Z",
+  "atomicLevel": "atom",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 3,
+    "propertyCount": 1
+  },
+  "properties": [
+    {
+      "name": "State",
+      "type": "VARIANT",
+      "values": [
+        "empty",
+        "in progress",
+        "complete"
+      ],
+      "defaultValue": "empty",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "State=in progress",
+      "properties": {
+        "State": "in progress"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003367:8809"
+    },
+    {
+      "name": "State=empty",
+      "properties": {
+        "State": "empty"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003367:9801"
+    },
+    {
+      "name": "State=complete",
+      "properties": {
+        "State": "complete"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003367:8811"
+    }
+  ]
+}

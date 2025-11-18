@@ -1,0 +1,42 @@
+{
+  "name": "state=inactive",
+  "fullName": "SegmentIndicator/state=inactive",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003194:7677",
+  "properties": {
+    "state": "inactive"
+  },
+  "styles": {
+    "borderRadius": "var(--semantics-border-radius-border-radius-half, {primitives.sizing.size-half}px)",
+    "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px)",
+    "gap": "var(--semantics-spacing-gap-gap-none, {primitives.sizing.size-none}px)",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "center",
+    "alignItems": "center"
+  },
+  "lastModified": "2025-11-18T04:49:00.481Z",
+  "composedOf": [
+    {
+      "id": "40003194:7678",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "view-list",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "DropDownFilter",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003540:3057",
+  "lastModified": "2025-11-18T04:49:01.836Z",
+  "atomicLevel": "molecule",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 3,
+    "propertyCount": 2
+  },
+  "properties": [
+    {
+      "name": "input-content#40003664:7",
+      "type": "TEXT",
+      "defaultValue": "All Types",
+      "optional": false
+    },
+    {
+      "name": "State",
+      "type": "VARIANT",
+      "values": [
+        "Enabled",
+        "Active",
+        "Disabled"
+      ],
+      "defaultValue": "Enabled",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "State=Enabled",
+      "properties": {
+        "State": "Enabled"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003266:3108"
+    },
+    {
+      "name": "State=Active",
+      "properties": {
+        "State": "Active"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003540:3058"
+    },
+    {
+      "name": "State=Disabled",
+      "properties": {
+        "State": "Disabled"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003549:9430"
+    }
+  ],
+  "dependencies": [
+    "40002473:8294"
+  ],
+  "composedOf": [
+    {
+      "id": "40003642:3920",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Down",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 98,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    }
+  ]
+}

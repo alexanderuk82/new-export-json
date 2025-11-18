@@ -1,0 +1,85 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "Activity List item",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003549:5948",
+  "lastModified": "2025-11-18T04:49:02.016Z",
+  "atomicLevel": "molecule",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 2,
+    "propertyCount": 6
+  },
+  "properties": [
+    {
+      "name": "Name#40003702:6",
+      "type": "TEXT",
+      "defaultValue": "Name",
+      "optional": false
+    },
+    {
+      "name": "Reference Number#40003702:9",
+      "type": "TEXT",
+      "defaultValue": "0000000000",
+      "optional": false
+    },
+    {
+      "name": "Quantity Value#40003702:12",
+      "type": "TEXT",
+      "defaultValue": "100",
+      "optional": false
+    },
+    {
+      "name": "Price Value#40003702:15",
+      "type": "TEXT",
+      "defaultValue": "370p",
+      "optional": false
+    },
+    {
+      "name": "Amount Value#40003702:18",
+      "type": "TEXT",
+      "defaultValue": "£549,71",
+      "optional": false
+    },
+    {
+      "name": "Type",
+      "type": "VARIANT",
+      "values": [
+        "Transaction",
+        "Order"
+      ],
+      "defaultValue": "Transaction",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "Type=Transaction",
+      "properties": {
+        "Type": "Transaction"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003549:5946"
+    },
+    {
+      "name": "Type=Order",
+      "properties": {
+        "Type": "Order"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003549:5949"
+    }
+  ],
+  "dependencies": [
+    "40003185:4673"
+  ],
+  "composedOf": [
+    {
+      "id": "40003549:5932",
+      "componentId": "40003185:4673",
+      "componentName": "ItemIcon",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ]
+}

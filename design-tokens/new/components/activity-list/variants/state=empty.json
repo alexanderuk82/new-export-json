@@ -1,0 +1,443 @@
+{
+  "name": "State=Empty",
+  "fullName": "Activity List/State=Empty",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003598:5937",
+  "properties": {
+    "State": "Empty"
+  },
+  "styles": {
+    "gap": "var(--semantics-spacing-gap-gap-1, {primitives.sizing.size-1}px)",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+    "fontSize": "20px",
+    "fontWeight": "600",
+    "fontFamily": "Open Sans",
+    "lineHeight": "normal",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Account Activity",
+      "All Types",
+      "All Time",
+      "You have no activity",
+      "Empty State Description",
+      "Tap to retry",
+      "Button Description"
+    ],
+    "labels": {
+      "Title": "Account Activity",
+      "Placeholder": "All Time",
+      "Empty State Title": "You have no activity",
+      "Description": "Button Description",
+      "Button Label": "Tap to retry"
+    },
+    "placeholder": "Account Activity"
+  },
+  "lastModified": "2025-11-18T04:49:02.541Z",
+  "composedOf": [
+    {
+      "id": "40003598:5941",
+      "componentId": "40002473:8369",
+      "componentName": "Icon Button/Solid",
+      "properties": {
+        "State": {
+          "value": "Master",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 289,
+        "y": 0
+      },
+      "styles": {
+        "backgroundColor": "var(--components-button-primary-solid-bg-color, {primitives.colour.palette.red.base})",
+        "borderRadius": "var(--components-button-common-border-radius, {semantics.border-radius.border-radius-2}px)",
+        "padding": "var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px) var(--semantics-spacing-padding-padding-0, {primitives.sizing.size-0}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center"
+      }
+    },
+    {
+      "id": "I40003598:5941;40002471:3882",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Search",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "40003598:5943",
+      "componentId": "40003540:3057",
+      "componentName": "DropDownFilter",
+      "properties": {
+        "input-content#40003664:7": {
+          "value": "All Types",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Disabled",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "styles": {
+        "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-half, {primitives.sizing.size-half}px)",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start",
+        "borderWidth": "0px 0px 0px 3px",
+        "color": "var(--components-input-disable-font-color, {primitives.colour.brand.disable})",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px",
+        "backgroundColor": "var(--components-input-disable-bg-color, {primitives.colour.palette.gray.50})",
+        "border": "2px solid var(--components-input-disable-border-color, {primitives.colour.palette.gray.100})",
+        "borderRadius": "var(--components-input-common-border-radius-top-left, {semantics.border-radius.border-radius-0}px)"
+      },
+      "content": {
+        "text": [
+          "All Types"
+        ],
+        "labels": {
+          "Placeholder": "All Types"
+        },
+        "placeholder": "All Types"
+      }
+    },
+    {
+      "id": "I40003598:5943;40003549:9435",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Down",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 116,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "40003598:5944",
+      "componentId": "40003540:3057",
+      "componentName": "DropDownFilter",
+      "properties": {
+        "input-content#40003664:7": {
+          "value": "All Time",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Disabled",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 172,
+        "y": 0
+      },
+      "styles": {
+        "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+        "gap": "var(--semantics-spacing-gap-gap-half, {primitives.sizing.size-half}px)",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start",
+        "borderWidth": "0px 0px 0px 3px",
+        "color": "var(--components-input-disable-font-color, {primitives.colour.brand.disable})",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px",
+        "backgroundColor": "var(--components-input-disable-bg-color, {primitives.colour.palette.gray.50})",
+        "border": "2px solid var(--components-input-disable-border-color, {primitives.colour.palette.gray.100})",
+        "borderRadius": "var(--components-input-common-border-radius-top-left, {semantics.border-radius.border-radius-0}px)"
+      },
+      "content": {
+        "text": [
+          "All Time"
+        ],
+        "labels": {
+          "Placeholder": "All Time"
+        },
+        "placeholder": "All Time"
+      }
+    },
+    {
+      "id": "I40003598:5944;40003549:9435",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Down",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 116,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "40003598:6127",
+      "componentId": "40002557:7466",
+      "componentName": "Empty State",
+      "properties": {
+        "Show Description#40002557:14": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Show Icon#40003579:0": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Description#40003579:2": {
+          "value": "Empty State Description",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Title#40003579:1": {
+          "value": "You have no activity",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "Show Button#40003579:21": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 18
+      },
+      "styles": {
+        "padding": "var(--semantics-spacing-padding-padding-1, {primitives.sizing.size-1}px) var(--semantics-spacing-padding-padding-1, {primitives.sizing.size-1}px) var(--semantics-spacing-padding-padding-1, {primitives.sizing.size-1}px) var(--semantics-spacing-padding-padding-1, {primitives.sizing.size-1}px)",
+        "gap": "var(--semantics-spacing-gap-gap-1, {primitives.sizing.size-1}px)",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "color": "var(--components-card-color-header, {primitives.colour.palette.gray.800})",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px",
+        "backgroundColor": "#FFFFFF"
+      },
+      "content": {
+        "text": [
+          "You have no activity",
+          "Empty State Description",
+          "Tap to retry",
+          "Button Description"
+        ],
+        "labels": {
+          "Empty State Title": "You have no activity",
+          "Description": "Button Description",
+          "Button Label": "Tap to retry"
+        }
+      }
+    },
+    {
+      "id": "I40003598:6127;40002557:7458",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Alert",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 140,
+        "y": 16
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-5, {primitives.sizing.size-5}px)",
+        "height": "var(--semantics-sizing-icon-size-5, {primitives.sizing.size-5}px)"
+      }
+    },
+    {
+      "id": "I40003598:6127;40003390:1307",
+      "componentId": "40003014:710",
+      "componentName": "Button/Ghost - Thin",
+      "properties": {
+        "IconStart#40002533:12": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "ShowDescription#40003014:12": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "IconEnd#40002533:13": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "input-label#40003294:120": {
+          "value": "Tap to retry",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "ShowLabel#40002903:0": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "input-description#40003294:126": {
+          "value": "Button Description",
+          "type": "TEXT",
+          "boundVariables": {}
+        },
+        "States": {
+          "value": "Master",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 16,
+        "y": 160
+      },
+      "styles": {
+        "backgroundColor": "var(--components-button-ghost-bg-color, {primitives.colour.transparent})",
+        "border": "2px solid var(--components-button-ghost-border-color, {primitives.colour.transparent})",
+        "borderRadius": "var(--components-button-common-border-radius, {semantics.border-radius.border-radius-2}px)",
+        "padding": "var(--components-button-common-padding-vert-thin, {semantics.spacing.padding.padding-0}px) var(--components-button-common-padding-hori-thick, {semantics.spacing.padding.padding-1}px) var(--components-button-common-padding-vert-thin, {semantics.spacing.padding.padding-0}px) var(--components-button-common-padding-hori-thick, {semantics.spacing.padding.padding-1}px)",
+        "gap": "var(--components-button-common-gap, {semantics.spacing.gap.gap-0}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "color": "var(--components-button-ghost-font-color, {primitives.colour.palette.red.base})",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "fontFamily": "Open Sans",
+        "lineHeight": "normal",
+        "letterSpacing": "[object Object]px"
+      },
+      "content": {
+        "text": [
+          "Tap to retry",
+          "Button Description"
+        ],
+        "labels": {
+          "Button Label": "Tap to retry",
+          "Description": "Button Description"
+        }
+      }
+    },
+    {
+      "id": "I40003598:6127;40003390:1307;40003014:712",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Mail",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 16,
+        "y": 20
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    },
+    {
+      "id": "I40003598:6127;40003390:1307;40003014:716",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Plus Circle",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 184,
+        "y": 20
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    }
+  ]
+}

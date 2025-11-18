@@ -1,0 +1,51 @@
+{
+  "name": "Type=Order",
+  "fullName": "Activity List item/Type=Order",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003549:5949",
+  "properties": {
+    "Type": "Order"
+  },
+  "styles": {
+    "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+    "gap": "var(--semantics-spacing-gap-gap-0, {primitives.sizing.size-0}px)",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start"
+  },
+  "content": {
+    "text": [
+      "Name",
+      "0000000000",
+      "Quantity",
+      "100",
+      "Price",
+      "370p",
+      "Amount",
+      "£549,71"
+    ],
+    "labels": {
+      "Name": "Name",
+      "Reference code": "0000000000",
+      "Quantity": "Quantity",
+      "QuantityValue": "100",
+      "Price": "Price",
+      "PriceValue": "370p",
+      "Amount": "Amount",
+      "AmountValue": "£549,71"
+    }
+  },
+  "lastModified": "2025-11-18T04:49:02.089Z",
+  "composedOf": [
+    {
+      "id": "40003549:5983",
+      "componentId": "40003185:4673",
+      "componentName": "ItemIcon",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ]
+}

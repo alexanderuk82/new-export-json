@@ -1,0 +1,79 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "Tabs.Trigger",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:7532",
+  "lastModified": "2025-11-18T04:49:00.308Z",
+  "atomicLevel": "atom",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 6,
+    "propertyCount": 2
+  },
+  "properties": [
+    {
+      "name": "Label#40003334:0",
+      "type": "TEXT",
+      "defaultValue": "Label",
+      "optional": false
+    },
+    {
+      "name": "state",
+      "type": "VARIANT",
+      "values": [
+        "selected",
+        "focus",
+        "inactive",
+        "hover",
+        "pressed",
+        "disabled"
+      ],
+      "defaultValue": "selected",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "state=selected",
+      "properties": {
+        "state": "selected"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:7531"
+    },
+    {
+      "name": "state=focus",
+      "properties": {
+        "state": "focus"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:7758"
+    },
+    {
+      "name": "state=inactive",
+      "properties": {
+        "state": "inactive"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:7766"
+    },
+    {
+      "name": "state=hover",
+      "properties": {
+        "state": "hover"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:7774"
+    },
+    {
+      "name": "state=pressed",
+      "properties": {
+        "state": "pressed"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:7782"
+    },
+    {
+      "name": "state=disabled",
+      "properties": {
+        "state": "disabled"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003172:7959"
+    }
+  ]
+}

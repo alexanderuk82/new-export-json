@@ -1,0 +1,57 @@
+{
+  "name": "State=Disabled",
+  "fullName": "DropDownFilter/State=Disabled",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003549:9430",
+  "properties": {
+    "State": "Disabled"
+  },
+  "styles": {
+    "padding": "var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px) var(--semantics-spacing-padding-padding-none, {primitives.sizing.size-none}px)",
+    "gap": "var(--semantics-spacing-gap-gap-half, {primitives.sizing.size-half}px)",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "borderWidth": "0px 0px 0px 3px",
+    "color": "var(--components-input-disable-font-color, {primitives.colour.brand.disable})",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontFamily": "Open Sans",
+    "lineHeight": "normal",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "All Types"
+    ],
+    "labels": {
+      "Placeholder": "All Types"
+    },
+    "placeholder": "All Types"
+  },
+  "lastModified": "2025-11-18T04:49:01.885Z",
+  "composedOf": [
+    {
+      "id": "40003549:9435",
+      "componentId": "40002473:8294",
+      "componentName": "Icons",
+      "properties": {
+        "Type": {
+          "value": "Chevron Down",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 98,
+        "y": 8
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)",
+        "height": "var(--semantics-sizing-icon-size-2, {primitives.sizing.size-2}px)"
+      }
+    }
+  ]
+}

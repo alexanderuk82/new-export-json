@@ -1,0 +1,19 @@
+{
+  "name": "State=in progress",
+  "fullName": "ProgressBar/State=in progress",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=40003367:8809",
+  "properties": {
+    "State": "in progress"
+  },
+  "styles": {
+    "backgroundColor": "var(--components-progress-bar-color-bar-bg, {primitives.colour.palette.gray.100})",
+    "borderRadius": "var(--semantics-border-radius-border-radius-0, {primitives.sizing.size-0}px)",
+    "gap": "10px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "space-between",
+    "alignItems": "flex-start"
+  },
+  "lastModified": "2025-11-18T04:49:00.587Z"
+}
