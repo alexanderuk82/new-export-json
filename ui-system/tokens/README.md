@@ -1,6 +1,6 @@
 # Design System Tokens
 
-Generated from Figma on 10/25/2025, 07:49:03 AM
+Generated from Figma on 11/30/2025, 05:08:59 PM
 
 ## 📁 Structure
 
@@ -10,58 +10,86 @@ ui-system/tokens/
 │   └── variables.json          # All design tokens (colors, spacing, typography, etc.)
 │
 ├── components/
-│   ├── button/
+│   ├── examples---home-page/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
-│   │       ├── state-button=primary.json
-│   │       ├── state-button=secondary.json
-│   │       └── ...
-│   ├── input-field/
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
+│   ├── examples-about/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
-│   │       ├── variant=input-text.json
-│   │       ├── variant=email.json
-│   ├── text-area/
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
+│   ├── examples-contact-us/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
-│   │       ├── variant=disable.json
-│   │       ├── variant=default-with-label.json
-│   │       └── ...
-│   ├── label/
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
+│   ├── examples-pricing/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
-│   │       ├── variant=default.json
-│   │       ├── variant=disable.json
-│   ├── box/
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
+│   ├── examples-waitlist/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
-│   │       ├── property-1=box-active.json
-│   │       ├── property-1=box-disable.json
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
+│   ├── examples-landing-page/
+│   │   ├── metadata.json       # Component documentation
+│   │   ├── tokens.json         # Design tokens used by this component
+│   │   └── variants/           # Individual variant specifications
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
+│   ├── examples-article/
+│   │   ├── metadata.json       # Component documentation
+│   │   ├── tokens.json         # Design tokens used by this component
+│   │   └── variants/           # Individual variant specifications
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
+│   ├── examples-shop/
+│   │   ├── metadata.json       # Component documentation
+│   │   ├── tokens.json         # Design tokens used by this component
+│   │   └── variants/           # Individual variant specifications
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
+│   ├── examples-product-detail-page/
+│   │   ├── metadata.json       # Component documentation
+│   │   ├── tokens.json         # Design tokens used by this component
+│   │   └── variants/           # Individual variant specifications
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
+│   ├── examples-portfolio/
+│   │   ├── metadata.json       # Component documentation
+│   │   ├── tokens.json         # Design tokens used by this component
+│   │   └── variants/           # Individual variant specifications
+│   │       ├── platform=desktop.json
+│   │       ├── platform=mobile.json
 │
 └── README.md                   # This file
 ```
 
-## 🎨 Variables (53 total)
+## 🎨 Variables (347 total)
 
 Design tokens exported from Figma variables:
 
-- **21st-dev/Alabaster**: `#fafafa` (color)
-- **21st-dev/AthensGray**: `#f4f4f5` (color)
-- **21st-dev/Black**: `#030303` (color)
-- **Alabaster**: `#fafafa` (color)
-- **AthensGray**: `#f4f4f5` (color)
-- **Black**: `#000000` (color)
-- **Carnation80%**: `#f43f5ecc` (color)
-- **CodGray**: `#1e1e1e` (color)
-- **Concrete**: `#f3f3f3` (color)
-- **Iron**: `#e4e4e7` (color)
+- **Background/Default/Default**: `#ffffff` (color)
+- **Background/Default/Secondary**: `#f5f5f5` (color)
+- **Background/Default/Tertiary**: `#d9d9d9` (color)
+- **Background/Default/Default Hover**: `#f5f5f5` (color)
+- **Background/Brand/Default**: `#2c2c2c` (color)
+- **Background/Brand/Secondary**: `#e6e6e6` (color)
+- **Background/Brand/Hover**: `#1e1e1e` (color)
+- **Background/Positive/Default**: `#14ae5c` (color)
+- **Background/Positive/Secondary**: `#cff7d3` (color)
+- **Background/Positive/Hover**: `#009951` (color)
 
-... and 43 more
+... and 337 more
 
 ### Usage Example
 
@@ -73,73 +101,133 @@ const primaryColor = tokens.Colors?.primary?.value;
 const spacing = tokens.Spacing?.base?.value;
 ```
 
-## 🧩 Components (5 total)
+## 🧩 Components (10 total)
 
-### Button
+### Examples / Home Page
 
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=56:23)
-- **Variants**: 6
-- **Properties**: 1
-- **File**: `components/button/metadata.json`
-
-**Available Properties:**
-- `state-button`: VARIANT (link, primary, secondary, destructive, outline, ghost)
-
----
-
-### input-field
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=67:112)
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:8332)
 - **Variants**: 2
 - **Properties**: 1
-- **File**: `components/input-field/metadata.json`
+- **File**: `components/examples---home-page/metadata.json`
 
 **Available Properties:**
-- `variant`: VARIANT (input-text, email)
+- `Platform`: VARIANT (Mobile, Desktop)
 
 ---
 
-### text-area
+### Examples/About
 
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=72:111)
-- **Variants**: 4
-- **Properties**: 1
-- **File**: `components/text-area/metadata.json`
-
-**Available Properties:**
-- `variant`: VARIANT (default-with-label, disable, disable-with-label-disable, default)
-
----
-
-### Label
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=72:122)
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:9044)
 - **Variants**: 2
 - **Properties**: 1
-- **File**: `components/label/metadata.json`
+- **File**: `components/examples-about/metadata.json`
 
 **Available Properties:**
-- `variant`: VARIANT (Default, disable)
+- `Platform`: VARIANT (Mobile, Desktop)
 
 ---
 
-### box
+### Examples/Contact Us
 
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=72:161)
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:9227)
 - **Variants**: 2
 - **Properties**: 1
-- **File**: `components/box/metadata.json`
+- **File**: `components/examples-contact-us/metadata.json`
 
 **Available Properties:**
-- `Property 1`: VARIANT (box-active, box-disable)
+- `Platform`: VARIANT (Mobile, Desktop)
+
+---
+
+### Examples/Pricing
+
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:9558)
+- **Variants**: 2
+- **Properties**: 1
+- **File**: `components/examples-pricing/metadata.json`
+
+**Available Properties:**
+- `Platform`: VARIANT (Mobile, Desktop)
+
+---
+
+### Examples/Waitlist
+
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:9701)
+- **Variants**: 2
+- **Properties**: 1
+- **File**: `components/examples-waitlist/metadata.json`
+
+**Available Properties:**
+- `Platform`: VARIANT (Mobile, Desktop)
+
+---
+
+### Examples/Landing Page
+
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:10124)
+- **Variants**: 2
+- **Properties**: 1
+- **File**: `components/examples-landing-page/metadata.json`
+
+**Available Properties:**
+- `Platform`: VARIANT (Mobile, Desktop)
+
+---
+
+### Examples/Article
+
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:10260)
+- **Variants**: 2
+- **Properties**: 1
+- **File**: `components/examples-article/metadata.json`
+
+**Available Properties:**
+- `Platform`: VARIANT (Mobile, Desktop)
+
+---
+
+### Examples/Shop
+
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:10872)
+- **Variants**: 2
+- **Properties**: 1
+- **File**: `components/examples-shop/metadata.json`
+
+**Available Properties:**
+- `Platform`: VARIANT (Mobile, Desktop)
+
+---
+
+### Examples/Product Detail Page
+
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:11271)
+- **Variants**: 2
+- **Properties**: 1
+- **File**: `components/examples-product-detail-page/metadata.json`
+
+**Available Properties:**
+- `Platform`: VARIANT (Mobile, Desktop)
+
+---
+
+### Examples/Portfolio
+
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=562:11665)
+- **Variants**: 2
+- **Properties**: 1
+- **File**: `components/examples-portfolio/metadata.json`
+
+**Available Properties:**
+- `Platform`: VARIANT (Mobile, Desktop)
 
 
 ## 🔄 Updates
 
 This export includes:
-- **53** new variables
+- **347** new variables
 - **0** updated variables
-- **5** new components
+- **10** new components
 - **0** updated components
 
 ## 📖 How to Use
