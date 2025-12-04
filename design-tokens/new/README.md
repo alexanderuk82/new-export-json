@@ -1,6 +1,6 @@
 # Design System Tokens
 
-Generated from Figma on 11/18/2025, 03:09:50 PM
+Generated from Figma on 12/04/2025, 08:43:43 AM
 
 ## 📁 Structure
 
@@ -10,110 +10,38 @@ design-tokens/new/
 │   └── variables.json          # All design tokens (colors, spacing, typography, etc.)
 │
 ├── components/
-│   ├── tabs.trigger/
+│   ├── order-status/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
-│   │       ├── state=selected.json
-│   │       ├── state=focus.json
-│   │       └── ...
-│   ├── segmentindicator/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── state=active.json
-│   │       ├── state=inactive.json
-│   │       └── ...
-│   ├── header-cells/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── type=startalign.json
-│   │       ├── type=endalign.json
-│   │       └── ...
-│   ├── data-cells/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── type=startalign.json
-│   │       ├── type=endalign.json
-│   ├── progressbar/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
+│   │       ├── state=pending.json
 │   │       ├── state=in-progress.json
-│   │       ├── state=empty.json
-│   │       └── ...
-│   ├── draweritem/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── variant=item.json
-│   │       ├── variant=toggle.json
-│   │       └── ...
-│   ├── portfoliolistitem/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── state=simple.json
-│   │       ├── state=detailed.json
-│   ├── portfoliolist/
+│   ├── active-order/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
 │   │       ├── state=default.json
-│   │       ├── state=empty.json
-│   ├── dropdownfilter/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── state=enabled.json
-│   │       ├── state=active.json
-│   │       └── ...
-│   ├── topnav/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── state=top.json
-│   │       ├── state=scrolled.json
-│   ├── activity-list-item/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── type=transaction.json
-│   │       ├── type=order.json
-│   ├── activity-list/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── state=default.json
-│   │       ├── state=empty.json
-│   ├── ghostfilter/
-│   │   ├── metadata.json       # Component documentation
-│   │   ├── tokens.json         # Design tokens used by this component
-│   │   └── variants/           # Individual variant specifications
-│   │       ├── state=active.json
-│   │       ├── state=disabled.json
+│   │       ├── state=loading.json
 │
 └── README.md                   # This file
 ```
 
-## 🎨 Variables (409 total)
+## 🎨 Variables (495 total)
 
 Design tokens exported from Figma variables:
 
-- **colour/palette/red/base**: `{colour.palette.red.base}` (color)
-- **colour/palette/error/base**: `{colour.palette.error.base}` (color)
-- **colour/palette/warning/base**: `{colour.palette.warning.base}` (color)
-- **colour/palette/success/100**: `{colour.palette.success.100}` (color)
-- **colour/palette/success/900**: `#266426` (color)
-- **colour/palette/success/base**: `{colour.palette.success.base}` (color)
-- **colour/palette/info/900**: `{colour.palette.info.900}` (color)
-- **colour/palette/info/base**: `{colour.palette.info.base}` (color)
-- **colour/palette/gray/200**: `{colour.palette.gray.200}` (color)
-- **colour/palette/gray/300**: `{colour.palette.gray.300}` (color)
+- **colour/palette/red/base**: `{global-primitive.colour.palette.red.base}` (color)
+- **colour/palette/red/600**: `{global-primitive.colour.palette.red.600}` (color)
+- **colour/palette/yellow/base**: `{global-primitive.colour.palette.yellow.base}` (color)
+- **colour/palette/green/100**: `{global-primitive.colour.palette.green.100}` (color)
+- **colour/palette/green/900**: `#266426` (color)
+- **colour/palette/green/base**: `{global-primitive.colour.palette.green.base}` (color)
+- **colour/palette/blue/900**: `{global-primitive.colour.palette.blue.900}` (color)
+- **colour/palette/blue/base**: `{global-primitive.colour.palette.blue.base}` (color)
+- **colour/palette/gray/200**: `{global-primitive.colour.palette.gray.200}` (color)
+- **colour/palette/gray/300**: `{global-primitive.colour.palette.gray.300}` (color)
 
-... and 399 more
+... and 485 more
 
 ### Usage Example
 
@@ -125,186 +53,47 @@ const primaryColor = tokens.Colors?.primary?.value;
 const spacing = tokens.Spacing?.base?.value;
 ```
 
-## 🧩 Components (13 total)
+## 🧩 Components (2 total)
 
-### Tabs.Trigger
+### Order Status
 
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003172:7532)
-- **Variants**: 6
-- **Properties**: 2
-- **File**: `components/tabs.trigger/metadata.json`
-
-**Available Properties:**
-- `Label#40003334:0`: TEXT
-- `state`: VARIANT (selected, focus, inactive, hover, pressed, disabled)
-
----
-
-### SegmentIndicator
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003185:4667)
-- **Variants**: 3
-- **Properties**: 1
-- **File**: `components/segmentindicator/metadata.json`
-
-**Available Properties:**
-- `state`: VARIANT (active, inactive, disabled)
-
----
-
-### Header Cells
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003172:12789)
-- **Variants**: 3
-- **Properties**: 2
-- **File**: `components/header-cells/metadata.json`
-
-**Available Properties:**
-- `Header#40003664:3`: TEXT
-- `type`: VARIANT (checkbox, endAlign, startAlign)
-
----
-
-### Data Cells
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003172:12764)
-- **Variants**: 2
-- **Properties**: 3
-- **File**: `components/data-cells/metadata.json`
-
-**Available Properties:**
-- `Show Icon after#40003191:38`: BOOLEAN
-- `Text#40003664:0`: TEXT
-- `type`: VARIANT (endAlign, startAlign)
-
----
-
-### ProgressBar
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003367:8810)
-- **Variants**: 3
-- **Properties**: 1
-- **File**: `components/progressbar/metadata.json`
-
-**Available Properties:**
-- `State`: VARIANT (empty, in progress, complete)
-
----
-
-### DrawerItem
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003427:3423)
-- **Variants**: 3
-- **Properties**: 3
-- **File**: `components/draweritem/metadata.json`
-
-**Available Properties:**
-- `Title#40003427:0`: TEXT
-- `Description#40003427:4`: TEXT
-- `Variant`: VARIANT (item, radio, toggle)
-
----
-
-### PortfolioListItem
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003465:7623)
-- **Variants**: 2
-- **Properties**: 4
-- **File**: `components/portfoliolistitem/metadata.json`
-
-**Available Properties:**
-- `Name#40003465:8`: TEXT
-- `Ticker#40003465:9`: TEXT
-- `Value#40003664:11`: TEXT
-- `State`: VARIANT (Simple, Detailed)
-
----
-
-### PortfolioList
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003540:2903)
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40004377:6184)
 - **Variants**: 2
 - **Properties**: 1
-- **File**: `components/portfoliolist/metadata.json`
+- **File**: `components/order-status/metadata.json`
 
 **Available Properties:**
-- `State`: VARIANT (Default, Empty)
+- `state`: VARIANT (pending, in progress)
 
 ---
 
-### DropDownFilter
+### Active Order
 
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003540:3057)
-- **Variants**: 3
-- **Properties**: 2
-- **File**: `components/dropdownfilter/metadata.json`
-
-**Available Properties:**
-- `input-content#40003664:7`: TEXT
-- `State`: VARIANT (Enabled, Active, Disabled)
-
----
-
-### TopNav
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003547:3052)
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40006006:1308)
 - **Variants**: 2
-- **Properties**: 3
-- **File**: `components/topnav/metadata.json`
+- **Properties**: 11
+- **File**: `components/active-order/metadata.json`
 
 **Available Properties:**
-- `Account Name#40003706:0`: TEXT
-- `Account Holder Name#40003706:3`: TEXT
-- `State`: VARIANT (Top, Scrolled)
-
----
-
-### Activity List item
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003549:5948)
-- **Variants**: 2
-- **Properties**: 6
-- **File**: `components/activity-list-item/metadata.json`
-
-**Available Properties:**
-- `Name#40003702:6`: TEXT
-- `Reference Number#40003702:9`: TEXT
-- `Quantity Value#40003702:12`: TEXT
-- `Price Value#40003702:15`: TEXT
-- `Amount Value#40003702:18`: TEXT
-- `Type`: VARIANT (Transaction, Order)
-
----
-
-### Activity List
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003598:5936)
-- **Variants**: 2
-- **Properties**: 1
-- **File**: `components/activity-list/metadata.json`
-
-**Available Properties:**
-- `State`: VARIANT (Default, Empty)
-
----
-
-### GhostFilter
-
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=40003664:7838)
-- **Variants**: 2
-- **Properties**: 1
-- **File**: `components/ghostfilter/metadata.json`
-
-**Available Properties:**
-- `State`: VARIANT (Active, Disabled)
+- `Show Cancel Button#40006006:0`: BOOLEAN
+- `Title#40006006:1`: TEXT
+- `Reference#40006006:2`: TEXT
+- `Type#40006006:3`: TEXT
+- `Order Type#40006006:4`: TEXT
+- `Quantity#40006006:5`: TEXT
+- `Price#40006006:6`: TEXT
+- `Date Entered#40006006:7`: TEXT
+- `Expiry Date#40006006:8`: TEXT
+- `Value#40006006:9`: TEXT
+- `State`: VARIANT (Default, loading)
 
 
 ## 🔄 Updates
 
 This export includes:
-- **409** new variables
+- **495** new variables
 - **0** updated variables
-- **13** new components
+- **2** new components
 - **0** updated components
 
 ## 📖 How to Use
