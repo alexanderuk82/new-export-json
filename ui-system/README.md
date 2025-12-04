@@ -1,6 +1,6 @@
 # Design System Tokens
 
-Generated from Figma on 12/04/2025, 03:44:38 AM
+Generated from Figma on 12/04/2025, 04:54:18 AM
 
 ## 📁 Structure
 
@@ -10,7 +10,13 @@ ui-system/
 │   └── variables.json          # All design tokens (colors, spacing, typography, etc.)
 │
 ├── components/
-
+│   ├── breadcrumb/
+│   │   ├── metadata.json       # Component documentation
+│   │   ├── tokens.json         # Design tokens used by this component
+│   │   └── variants/           # Individual variant specifications
+│   │       ├── type=base,-separator=slash,-variants=base.json
+│   │       ├── type=base,-separator=chevron,-variants=base.json
+│   │       └── ...
 │
 └── README.md                   # This file
 ```
@@ -42,8 +48,19 @@ const primaryColor = tokens.Colors?.primary?.value;
 const spacing = tokens.Spacing?.base?.value;
 ```
 
-## 🧩 Components (0 total)
+## 🧩 Components (1 total)
 
+### Breadcrumb
+
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=4360:61224)
+- **Variants**: 28
+- **Properties**: 3
+- **File**: `components/breadcrumb/metadata.json`
+
+**Available Properties:**
+- `Type`: VARIANT (Base, Bordered)
+- `Separator`: VARIANT (Chevron, Slash)
+- `Variants`: VARIANT (Base, Base with Dots, Links with Trigger, Links with Trigger and Label, Mobile, Desktop, Desktop with Icons)
 
 
 ## 🔄 Updates
@@ -51,7 +68,7 @@ const spacing = tokens.Spacing?.base?.value;
 This export includes:
 - **2216** new variables
 - **0** updated variables
-- **0** new components
+- **1** new components
 - **0** updated components
 
 ## 📖 How to Use

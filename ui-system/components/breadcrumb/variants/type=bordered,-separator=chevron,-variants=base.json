@@ -1,0 +1,192 @@
+{
+  "name": "Type=Bordered, Separator=Chevron, Variants=Base",
+  "fullName": "Breadcrumb/Type=Bordered, Separator=Chevron, Variants=Base",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=4433:84317",
+  "properties": {
+    "Type": "Bordered",
+    "Separator": "Chevron",
+    "Variants": "Base"
+  },
+  "styles": {
+    "backgroundColor": "#FFFFFF",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "flex-start",
+    "color": "var(--tokens-navigations-breadcrumb-label-secondary-color, {Primitives.Colors.Gray.600})",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "fontFamily": "Inter",
+    "lineHeight": "20PIXELS",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Home",
+      "...",
+      "Application"
+    ],
+    "labels": {
+      "Label": "Application"
+    }
+  },
+  "lastModified": "2025-12-04T04:49:46.801Z",
+  "composedOf": [
+    {
+      "id": "4433:84318",
+      "componentId": "4359:69400",
+      "componentName": "_breadcrumb",
+      "properties": {
+        "Second Link Icon Swap#4433:8": {
+          "value": "52594:103439",
+          "type": "INSTANCE_SWAP",
+          "boundVariables": {}
+        },
+        "First Link Icon Swap#4433:4": {
+          "value": "52594:103422",
+          "type": "INSTANCE_SWAP",
+          "boundVariables": {}
+        },
+        "First Separator Swap#4433:13": {
+          "value": "52594:103292",
+          "type": "INSTANCE_SWAP",
+          "boundVariables": {}
+        },
+        "Second Separator Swap#4433:12": {
+          "value": "52594:103292",
+          "type": "INSTANCE_SWAP",
+          "boundVariables": {}
+        },
+        "First Link Label#4433:10": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Active Label#4433:14": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Second Link Label#4433:9": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Second Link#4433:6": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "First Link Icon#4433:3": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Second Link Icon#4433:7": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "First Link#4433:2": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "styles": {
+        "border": "Symbol(figma.mixed)px solid var(--tokens-navigations-breadcrumb-inline-border-color, {Tokens.Border.Border Color})",
+        "padding": "6px 10px 6px 10px",
+        "gap": "var(--tokens-navigations-breadcrumb-gap-between, {Primitives.Utilities.Spacing.4}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "borderWidth": "1px 0px 1px 0px",
+        "color": "var(--tokens-navigations-breadcrumb-label-secondary-color, {Primitives.Colors.Gray.600})",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "fontFamily": "Inter",
+        "lineHeight": "20PIXELS",
+        "letterSpacing": "[object Object]px",
+        "borderRadius": "6px"
+      },
+      "content": {
+        "text": [
+          "Home",
+          "...",
+          "Application"
+        ],
+        "labels": {
+          "Label": "Application"
+        }
+      }
+    },
+    {
+      "id": "I4433:84318;4359:69347",
+      "componentId": "52594:103422",
+      "componentName": "home",
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)",
+        "height": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)"
+      }
+    },
+    {
+      "id": "I4433:84318;4359:69376",
+      "componentId": "52594:103292",
+      "componentName": "chevron-right",
+      "position": {
+        "x": 66,
+        "y": 10
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--tokens-navigations-breadcrumb-separator-height, {Primitives.Utilities.Height.3}px)",
+        "height": "var(--tokens-navigations-breadcrumb-separator-height, {Primitives.Utilities.Height.3}px)"
+      }
+    },
+    {
+      "id": "I4433:84318;4359:69363",
+      "componentId": "52594:103439",
+      "componentName": "blocks",
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)",
+        "height": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)"
+      }
+    },
+    {
+      "id": "I4433:84318;4359:69380",
+      "componentId": "52594:103292",
+      "componentName": "chevron-right",
+      "position": {
+        "x": 123,
+        "y": 10
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--tokens-navigations-breadcrumb-separator-height, {Primitives.Utilities.Height.3}px)",
+        "height": "var(--tokens-navigations-breadcrumb-separator-height, {Primitives.Utilities.Height.3}px)"
+      }
+    }
+  ]
+}

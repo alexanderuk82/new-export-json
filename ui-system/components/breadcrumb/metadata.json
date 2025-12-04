@@ -1,0 +1,487 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "Breadcrumb",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61224",
+  "lastModified": "2025-12-04T04:49:46.308Z",
+  "atomicLevel": "template",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 28,
+    "propertyCount": 3
+  },
+  "properties": [
+    {
+      "name": "Type",
+      "type": "VARIANT",
+      "values": [
+        "Base",
+        "Bordered"
+      ],
+      "defaultValue": "Base",
+      "optional": false
+    },
+    {
+      "name": "Separator",
+      "type": "VARIANT",
+      "values": [
+        "Chevron",
+        "Slash"
+      ],
+      "defaultValue": "Slash",
+      "optional": false
+    },
+    {
+      "name": "Variants",
+      "type": "VARIANT",
+      "values": [
+        "Base",
+        "Base with Dots",
+        "Links with Trigger",
+        "Links with Trigger and Label",
+        "Mobile",
+        "Desktop",
+        "Desktop with Icons"
+      ],
+      "defaultValue": "Base",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "Type=Base, Separator=Slash, Variants=Base",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Slash",
+        "Variants": "Base"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4433:84069"
+    },
+    {
+      "name": "Type=Base, Separator=Chevron, Variants=Base",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Chevron",
+        "Variants": "Base"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4433:84071"
+    },
+    {
+      "name": "Type=Base, Separator=Slash, Variants=Base with Dots",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Slash",
+        "Variants": "Base with Dots"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60111"
+    },
+    {
+      "name": "Type=Base, Separator=Chevron, Variants=Base with Dots",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Chevron",
+        "Variants": "Base with Dots"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60119"
+    },
+    {
+      "name": "Type=Base, Separator=Slash, Variants=Links with Trigger",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Slash",
+        "Variants": "Links with Trigger"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60118"
+    },
+    {
+      "name": "Type=Base, Separator=Chevron, Variants=Links with Trigger",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Chevron",
+        "Variants": "Links with Trigger"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60116"
+    },
+    {
+      "name": "Type=Base, Separator=Slash, Variants=Links with Trigger and Label",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Slash",
+        "Variants": "Links with Trigger and Label"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60115"
+    },
+    {
+      "name": "Type=Base, Separator=Chevron, Variants=Links with Trigger and Label",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Chevron",
+        "Variants": "Links with Trigger and Label"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60113"
+    },
+    {
+      "name": "Type=Base, Separator=Slash, Variants=Mobile",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Slash",
+        "Variants": "Mobile"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60112"
+    },
+    {
+      "name": "Type=Base, Separator=Chevron, Variants=Mobile",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Chevron",
+        "Variants": "Mobile"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60109"
+    },
+    {
+      "name": "Type=Base, Separator=Slash, Variants=Desktop",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Slash",
+        "Variants": "Desktop"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60110"
+    },
+    {
+      "name": "Type=Base, Separator=Chevron, Variants=Desktop",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Chevron",
+        "Variants": "Desktop"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60120"
+    },
+    {
+      "name": "Type=Base, Separator=Slash, Variants=Desktop with Icons",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Slash",
+        "Variants": "Desktop with Icons"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60114"
+    },
+    {
+      "name": "Type=Base, Separator=Chevron, Variants=Desktop with Icons",
+      "properties": {
+        "Type": "Base",
+        "Separator": "Chevron",
+        "Variants": "Desktop with Icons"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:60117"
+    },
+    {
+      "name": "Type=Bordered, Separator=Slash, Variants=Base",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Slash",
+        "Variants": "Base"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4433:84315"
+    },
+    {
+      "name": "Type=Bordered, Separator=Chevron, Variants=Base",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Chevron",
+        "Variants": "Base"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4433:84317"
+    },
+    {
+      "name": "Type=Bordered, Separator=Slash, Variants=Base with Dots",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Slash",
+        "Variants": "Base with Dots"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61197"
+    },
+    {
+      "name": "Type=Bordered, Separator=Chevron, Variants=Base with Dots",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Chevron",
+        "Variants": "Base with Dots"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61190"
+    },
+    {
+      "name": "Type=Bordered, Separator=Slash, Variants=Links with Trigger",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Slash",
+        "Variants": "Links with Trigger"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61194"
+    },
+    {
+      "name": "Type=Bordered, Separator=Chevron, Variants=Links with Trigger",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Chevron",
+        "Variants": "Links with Trigger"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61195"
+    },
+    {
+      "name": "Type=Bordered, Separator=Slash, Variants=Links with Trigger and Label",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Slash",
+        "Variants": "Links with Trigger and Label"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61191"
+    },
+    {
+      "name": "Type=Bordered, Separator=Chevron, Variants=Links with Trigger and Label",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Chevron",
+        "Variants": "Links with Trigger and Label"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61196"
+    },
+    {
+      "name": "Type=Bordered, Separator=Slash, Variants=Mobile",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Slash",
+        "Variants": "Mobile"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61188"
+    },
+    {
+      "name": "Type=Bordered, Separator=Chevron, Variants=Mobile",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Chevron",
+        "Variants": "Mobile"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61186"
+    },
+    {
+      "name": "Type=Bordered, Separator=Slash, Variants=Desktop",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Slash",
+        "Variants": "Desktop"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61192"
+    },
+    {
+      "name": "Type=Bordered, Separator=Chevron, Variants=Desktop",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Chevron",
+        "Variants": "Desktop"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61187"
+    },
+    {
+      "name": "Type=Bordered, Separator=Slash, Variants=Desktop with Icons",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Slash",
+        "Variants": "Desktop with Icons"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61189"
+    },
+    {
+      "name": "Type=Bordered, Separator=Chevron, Variants=Desktop with Icons",
+      "properties": {
+        "Type": "Bordered",
+        "Separator": "Chevron",
+        "Variants": "Desktop with Icons"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=4360:61193"
+    }
+  ],
+  "dependencies": [
+    "4359:69400",
+    "52594:103422",
+    "4359:69388",
+    "52594:103439",
+    "52594:103292",
+    "52594:103531",
+    "52594:103018"
+  ],
+  "composedOf": [
+    {
+      "id": "4433:84070",
+      "componentId": "4359:69400",
+      "componentName": "_breadcrumb",
+      "properties": {
+        "First Separator Swap#4433:13": {
+          "value": "4359:69388",
+          "type": "INSTANCE_SWAP",
+          "boundVariables": {}
+        },
+        "Second Separator Swap#4433:12": {
+          "value": "4359:69388",
+          "type": "INSTANCE_SWAP",
+          "boundVariables": {}
+        },
+        "Second Link Icon Swap#4433:8": {
+          "value": "52594:103439",
+          "type": "INSTANCE_SWAP",
+          "boundVariables": {}
+        },
+        "First Link Icon Swap#4433:4": {
+          "value": "52594:103422",
+          "type": "INSTANCE_SWAP",
+          "boundVariables": {}
+        },
+        "First Link Label#4433:10": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Active Label#4433:14": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Second Link Label#4433:9": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Second Link#4433:6": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "First Link Icon#4433:3": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "Second Link Icon#4433:7": {
+          "value": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        },
+        "First Link#4433:2": {
+          "value": true,
+          "type": "BOOLEAN",
+          "boundVariables": {}
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "styles": {
+        "gap": "var(--tokens-navigations-breadcrumb-gap-between, {Primitives.Utilities.Spacing.4}px)",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "color": "var(--tokens-navigations-breadcrumb-label-secondary-color, {Primitives.Colors.Gray.600})",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "fontFamily": "Inter",
+        "lineHeight": "20PIXELS",
+        "letterSpacing": "[object Object]px",
+        "borderRadius": "6px"
+      }
+    },
+    {
+      "id": "I4433:84070;4359:69347",
+      "componentId": "52594:103422",
+      "componentName": "home",
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)",
+        "height": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)"
+      }
+    },
+    {
+      "id": "I4433:84070;4359:69376",
+      "componentId": "4359:69388",
+      "componentName": "slash-bold",
+      "position": {
+        "x": 56,
+        "y": 4
+      },
+      "styles": {
+        "width": "var(--tokens-navigations-breadcrumb-separator-height, {Primitives.Utilities.Height.3}px)",
+        "height": "var(--tokens-navigations-breadcrumb-separator-height, {Primitives.Utilities.Height.3}px)"
+      }
+    },
+    {
+      "id": "I4433:84070;4359:69363",
+      "componentId": "52594:103439",
+      "componentName": "blocks",
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)",
+        "height": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)"
+      }
+    },
+    {
+      "id": "I4433:84072;4359:69376",
+      "componentId": "52594:103292",
+      "componentName": "chevron-right",
+      "position": {
+        "x": 56,
+        "y": 4
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--tokens-navigations-breadcrumb-separator-height, {Primitives.Utilities.Height.3}px)",
+        "height": "var(--tokens-navigations-breadcrumb-separator-height, {Primitives.Utilities.Height.3}px)"
+      }
+    },
+    {
+      "id": "I4359:69602;4359:69363",
+      "componentId": "52594:103531",
+      "componentName": "more-vertical",
+      "position": {
+        "x": 6,
+        "y": 5
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)",
+        "height": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)"
+      }
+    },
+    {
+      "id": "I4359:69538;4359:69347",
+      "componentId": "52594:103018",
+      "componentName": "align-justify",
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "styles": {
+        "backgroundColor": "#FFFFFF",
+        "width": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)",
+        "height": "var(--tokens-navigations-breadcrumb-icon-size, {Primitives.Utilities.Height.4}px)"
+      }
+    }
+  ]
+}
