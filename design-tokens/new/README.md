@@ -1,6 +1,6 @@
 # Design System Tokens
 
-Generated from Figma on 12/04/2025, 11:44:53 AM
+Generated from Figma on 12/04/2025, 11:49:17 AM
 
 ## 📁 Structure
 
@@ -20,7 +20,7 @@ design-tokens/new/
 Design tokens exported from Figma variables:
 
 - **global-primitive/colour/palette/red/base**: `#d50032` (color)
-- **global-primitive/colour/palette/red/600**: `#18d922` (color)
+- **global-primitive/colour/palette/red/600**: `#d01e18` (color)
 - **global-primitive/colour/palette/yellow/base**: `#ffd800` (color)
 - **global-primitive/colour/palette/green/base**: `#48c748` (color)
 - **global-primitive/colour/palette/blue/base**: `#0b3caa` (color)
