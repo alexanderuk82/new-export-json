@@ -1015,7 +1015,7 @@
       },
       "White": {
         "100%": {
-          "value": "#ffffff",
+          "value": "#f5f5f5",
           "type": "color"
         },
         "10%": {
