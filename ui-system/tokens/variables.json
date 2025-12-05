@@ -1015,7 +1015,7 @@
       },
       "White": {
         "100%": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "10%": {
@@ -1594,13 +1594,13 @@
         "type": "color"
       },
       "Title Light Color": {
-        "value": "#f5f5f5",
+        "value": "#ef5151",
         "type": "color"
       }
     },
     "Background": {
       "Body": {
-        "value": "#f5f5f5",
+        "value": "#ef5151",
         "type": "color"
       },
       "Overlay Color": {
@@ -1665,7 +1665,7 @@
           "type": "color"
         },
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Border Radius": {
@@ -1707,7 +1707,7 @@
       },
       "Alert": {
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Solid": {
@@ -1717,7 +1717,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Secondary Text Color": {
@@ -1725,7 +1725,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Icon Color": {
@@ -1735,7 +1735,7 @@
           },
           "Light": {
             "Bg Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Placeholder Color": {
@@ -1761,7 +1761,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Secondary Text Color": {
@@ -1783,7 +1783,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Secondary Text Color": {
@@ -1805,7 +1805,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Secondary Text Color": {
@@ -1827,7 +1827,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Secondary Text Color": {
@@ -1849,7 +1849,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Secondary Text Color": {
@@ -1923,11 +1923,11 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Secondary Text Color": {
@@ -2076,7 +2076,7 @@
         },
         "White": {
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Border Color": {
@@ -2164,7 +2164,7 @@
         },
         "White": {
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Border Color": {
@@ -2182,7 +2182,7 @@
             "type": "color"
           },
           "Border Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Online Color": {
@@ -2209,7 +2209,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -2219,7 +2219,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -2229,7 +2229,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -2239,7 +2239,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -2249,13 +2249,13 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
           "Light": {
             "Bg Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Placeholder Color": {
@@ -2269,7 +2269,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           }
@@ -2341,7 +2341,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           }
@@ -2397,11 +2397,11 @@
         "Outline": {
           "Light": {
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Border Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -2466,7 +2466,7 @@
             }
           },
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           }
         }
@@ -2491,11 +2491,11 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Bg Color": {
@@ -2503,11 +2503,11 @@
               "type": "color"
             },
             "Status Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -2517,15 +2517,15 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Status Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Bg Color": {
@@ -2533,13 +2533,13 @@
               "type": "color"
             },
             "Close Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
           "Light": {
             "Bg Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Placeholder Color": {
@@ -2569,15 +2569,15 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Status Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Bg Color": {
@@ -2595,15 +2595,15 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Status Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Bg Color": {
@@ -2611,7 +2611,7 @@
               "type": "color"
             },
             "Close Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -2621,15 +2621,15 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Status Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Bg Color": {
@@ -2637,7 +2637,7 @@
               "type": "color"
             },
             "Close Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -2647,15 +2647,15 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Status Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Bg Color": {
@@ -2663,14 +2663,14 @@
               "type": "color"
             },
             "Close Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           }
         },
         "White": {
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Placeholder Color": {
@@ -2885,19 +2885,19 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Icon": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Status Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Bg Color": {
@@ -2991,15 +2991,15 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Status Icon": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Close Bg Color": {
@@ -3007,7 +3007,7 @@
               "type": "color"
             },
             "Close Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -3241,11 +3241,11 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Divider Color": {
@@ -3295,11 +3295,11 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Divider Color": {
@@ -3337,11 +3337,11 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Divider Color": {
@@ -3379,11 +3379,11 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Divider Color": {
@@ -3421,11 +3421,11 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Divider Color": {
@@ -3463,11 +3463,11 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Divider Color": {
@@ -3489,7 +3489,7 @@
           },
           "Light": {
             "Bg Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Bg Hover Color": {
@@ -3497,7 +3497,7 @@
               "type": "color"
             },
             "Bg Focus Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Bg Disabled Color": {
@@ -3857,7 +3857,7 @@
           },
           "Light": {
             "Border Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Border Hover Color": {
@@ -3873,7 +3873,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Placeholder Hover Color": {
@@ -3885,7 +3885,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Hover Color": {
@@ -4229,7 +4229,7 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Placeholder Hover Color": {
@@ -4241,7 +4241,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Hover Color": {
@@ -4601,11 +4601,11 @@
               "type": "color"
             },
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Placeholder Hover Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Placeholder Disabled Color": {
@@ -4613,11 +4613,11 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Hover Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Disabled Color": {
@@ -4877,7 +4877,7 @@
           },
           "Light": {
             "Placeholder Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Placeholder Hover Color": {
@@ -4889,7 +4889,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Hover Color": {
@@ -5038,7 +5038,7 @@
             "type": "color"
           },
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Bg Hover Color": {
@@ -5050,7 +5050,7 @@
             "type": "color"
           },
           "Bg Disabled Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Blue": {
@@ -5245,7 +5245,7 @@
       },
       "Card": {
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Border Color": {
@@ -5328,11 +5328,11 @@
       "Devices": {
         "Desktop": {
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Header Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Border Color": {
@@ -5419,7 +5419,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -5429,7 +5429,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -5439,7 +5439,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -5449,7 +5449,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -5459,7 +5459,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
@@ -5469,13 +5469,13 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           },
           "Light": {
             "Bg Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Icon Color": {
@@ -5551,7 +5551,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           }
@@ -5631,7 +5631,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           }
@@ -5675,7 +5675,7 @@
           },
           "Light": {
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             }
           }
@@ -5771,7 +5771,7 @@
               "type": "color"
             },
             "Icon Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Border Color": {
@@ -5900,7 +5900,7 @@
         },
         "List Group": {
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Border Color": {
@@ -6013,7 +6013,7 @@
           "type": "color"
         },
         "Within Progress Bar Placeholder Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Progress Height LG": {
@@ -6213,7 +6213,7 @@
           "type": "color"
         },
         "Icon Active Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         }
       },
@@ -6329,7 +6329,7 @@
       },
       "Layout": {
         "Layout Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Layout Border Radius": {
@@ -6495,11 +6495,11 @@
           "type": "color"
         },
         "Logo Light Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Border Light Color": {
@@ -6526,7 +6526,7 @@
             "type": "color"
           },
           "Light Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Disabled Light Color": {
@@ -6602,7 +6602,7 @@
             "type": "color"
           },
           "Light Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Disabled Light Color": {
@@ -6623,7 +6623,7 @@
           "type": "float"
         },
         "Segment Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Bg Pills Active Color": {
@@ -6667,7 +6667,7 @@
           "type": "color"
         },
         "Segment Bg Active Light Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Bg Link Hover Color": {
@@ -6717,7 +6717,7 @@
           "type": "float"
         },
         "Link Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         }
       },
@@ -6755,7 +6755,7 @@
           "type": "float"
         },
         "Active Bg Secondary Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Active Bg Color": {
@@ -6787,7 +6787,7 @@
           "type": "float"
         },
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Link Border Color": {
@@ -6795,7 +6795,7 @@
           "type": "color"
         },
         "Link Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Icon Border Radius Pilled": {
@@ -6813,7 +6813,7 @@
       },
       "Sidebar": {
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Scrollbar": {
@@ -6860,7 +6860,7 @@
         },
         "Footer": {
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Border Color": {
@@ -6938,7 +6938,7 @@
             "type": "float"
           },
           "Subtitle Light Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Divider Light Color": {
@@ -6955,7 +6955,7 @@
           "type": "color"
         },
         "Logo Light Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         }
       }
@@ -7010,7 +7010,7 @@
         "type": "float"
       },
       "Bg Color": {
-        "value": "#f5f5f5",
+        "value": "#ef5151",
         "type": "color"
       },
       "Striped Cell Bg Light Blue Color": {
@@ -7064,7 +7064,7 @@
         },
         "Background": {
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Light Color": {
@@ -7353,7 +7353,7 @@
           },
           "Background": {
             "Bg Color": {
-              "value": "#f5f5f5",
+              "value": "#ef5151",
               "type": "color"
             },
             "Bg Active Color": {
@@ -7378,11 +7378,11 @@
             "type": "color"
           },
           "Active Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Active-Disabled Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Soft Active Color": {
@@ -7403,7 +7403,7 @@
           "type": "color"
         },
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Placeholder Disabled Color": {
@@ -7498,7 +7498,7 @@
             "type": "float"
           },
           "Bg Active Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Icon Active Color": {
@@ -7506,15 +7506,15 @@
             "type": "color"
           },
           "Icon Light Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Bg Disabled Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Bg Active-Disabled Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Icon Active-Disabled Color": {
@@ -7534,7 +7534,7 @@
             "type": "color"
           },
           "Icon Active Light Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Bg Soft Active-Disabled Color": {
@@ -7583,7 +7583,7 @@
     "Advanced Forms": {
       "Datepicker": {
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Icon Bg Active Color": {
@@ -7619,7 +7619,7 @@
           "type": "float"
         },
         "Date Light Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Date Active Color": {
@@ -7639,7 +7639,7 @@
           "type": "color"
         },
         "Daterange Link Active Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Time Border Color": {
@@ -7769,7 +7769,7 @@
       },
       "Drag’ n’ Drop File Uploads": {
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Border Color": {
@@ -7805,7 +7805,7 @@
           "type": "color"
         },
         "Dragging File Label Placeholder Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Dragging File Gap Between": {
@@ -7821,7 +7821,7 @@
           "type": "float"
         },
         "Dragging File Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Dragging File Border Color": {
@@ -7871,7 +7871,7 @@
       },
       "Range Slider": {
         "Touch Area Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Default Bar Bg Color": {
@@ -7919,7 +7919,7 @@
           "type": "float"
         },
         "Tooltip Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Tooltip Text Color": {
@@ -7965,7 +7965,7 @@
       },
       "File Uploading Progress": {
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Border Color": {
@@ -7993,7 +7993,7 @@
           "type": "float"
         },
         "Icon Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Icon Border Color": {
@@ -8075,7 +8075,7 @@
       },
       "WYSIWYG Editor": {
         "Editor Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Editor Border Color": {
@@ -8140,7 +8140,7 @@
             "type": "color"
           },
           "Send Button Active Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Send Button Active Divider Color": {
@@ -8164,7 +8164,7 @@
             "type": "float"
           },
           "Bg Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Border Color": {
@@ -8227,7 +8227,7 @@
     "Overlays": {
       "Dropdowns": {
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Border Color": {
@@ -8421,7 +8421,7 @@
       },
       "Modal": {
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Title Color": {
@@ -8525,7 +8525,7 @@
           "type": "color"
         },
         "Title Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Secondary Text Color": {
@@ -8533,7 +8533,7 @@
           "type": "color"
         },
         "Indicator Text Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Indicator Border Radius": {
@@ -8565,7 +8565,7 @@
           "type": "color"
         },
         "Shortcut Hints Text Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Shortcut Hints Height": {
@@ -8591,7 +8591,7 @@
           "type": "color"
         },
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Gap Between": {
@@ -8631,7 +8631,7 @@
           "type": "color"
         },
         "Pointer Border Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Gap Between": {
@@ -8675,7 +8675,7 @@
           "type": "color"
         },
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Border Color": {
@@ -8721,7 +8721,7 @@
           "type": "color"
         },
         "Light Progress Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Border Light Color": {
@@ -8733,7 +8733,7 @@
           "type": "color"
         },
         "Bg Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Border Radius": {
@@ -8741,7 +8741,7 @@
           "type": "float"
         },
         "Title Light Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Secondary Light Text Color": {
@@ -8942,7 +8942,7 @@
         },
         "Light": {
           "Progress #1 Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Progress #2 Color": {
@@ -9034,7 +9034,7 @@
         },
         "Light": {
           "Progress #1 Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Progress #2 Color": {
@@ -9071,7 +9071,7 @@
           "type": "color"
         },
         "Title Light Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         },
         "Secondary Text Color": {
@@ -9119,7 +9119,7 @@
           "type": "color"
         },
         "Pagination Bg Light Active Color": {
-          "value": "#f5f5f5",
+          "value": "#ef5151",
           "type": "color"
         }
       }
@@ -9184,7 +9184,7 @@
         },
         "Light": {
           "Placeholder Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Placeholder Hover Color": {
@@ -9434,7 +9434,7 @@
         },
         "Light": {
           "Placeholder Color": {
-            "value": "#f5f5f5",
+            "value": "#ef5151",
             "type": "color"
           },
           "Placeholder Hover Color": {
