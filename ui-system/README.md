@@ -1,6 +1,6 @@
 # Design System Tokens
 
-Generated from Figma on 12/05/2025, 05:37:44 PM
+Generated from Figma on 12/05/2025, 05:53:20 PM
 
 ## 📁 Structure
 
