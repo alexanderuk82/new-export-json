@@ -1,6 +1,6 @@
 # Design System Tokens
 
-Generated from Figma on 12/05/2025, 06:26:24 PM
+Generated from Figma on 12/05/2025, 06:31:22 PM
 
 ## 📁 Structure
 
@@ -21,7 +21,7 @@ ui-system/
 └── README.md                   # This file
 ```
 
-## 🎨 Variables (2216 total)
+## 🎨 Variables (2217 total)
 
 Design tokens exported from Figma variables:
 
@@ -36,7 +36,7 @@ Design tokens exported from Figma variables:
 - **Colors/Gray/800**: `#1f2937` (color)
 - **Colors/Gray/900**: `#111827` (color)
 
-... and 2206 more
+... and 2207 more
 
 ### Usage Example
 
@@ -66,7 +66,7 @@ const spacing = tokens.Spacing?.base?.value;
 ## 🔄 Updates
 
 This export includes:
-- **2216** new variables
+- **2217** new variables
 - **0** updated variables
 - **1** new components
 - **0** updated components
