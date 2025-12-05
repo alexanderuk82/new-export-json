@@ -1,6 +1,6 @@
 # Design System Tokens
 
-Generated from Figma on 12/05/2025, 06:39:03 PM
+Generated from Figma on 12/05/2025, 08:02:15 PM
 
 ## 📁 Structure
 
@@ -10,12 +10,12 @@ ui-system/
 │   └── variables.json          # All design tokens (colors, spacing, typography, etc.)
 │
 ├── components/
-│   ├── navs-tabs/
+│   ├── loading-state/
 │   │   ├── metadata.json       # Component documentation
 │   │   ├── tokens.json         # Design tokens used by this component
 │   │   └── variants/           # Individual variant specifications
-│   │       ├── type=base,-direction=horizontal,-fill=none.json
-│   │       ├── type=base-with-icons,-direction=horizontal,-fill=none.json
+│   │       ├── type=line-spinner,-size=xs.json
+│   │       ├── type=line-spinner,-size=small.json
 │   │       └── ...
 │
 └── README.md                   # This file
@@ -50,17 +50,16 @@ const spacing = tokens.Spacing?.base?.value;
 
 ## 🧩 Components (1 total)
 
-### Navs/Tabs
+### Loading State
 
-- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=4436:93025)
-- **Variants**: 19
-- **Properties**: 3
-- **File**: `components/navs-tabs/metadata.json`
+- **Figma**: [View in Figma](https://www.figma.com/file/undefined?node-id=4346:53327)
+- **Variants**: 4
+- **Properties**: 2
+- **File**: `components/loading-state/metadata.json`
 
 **Available Properties:**
-- `Type`: VARIANT (Base, Base with Icons, Bordered, Bordered with Icons, Pills with Brand Color, Segment, Pills in Gray Color)
-- `Direction`: VARIANT (Vertical, Horizontal)
-- `Fill`: VARIANT (None, Filled, Vertical)
+- `Type`: VARIANT (Line Spinner)
+- `Size`: VARIANT (Large, Default, Small, XS)
 
 
 ## 🔄 Updates

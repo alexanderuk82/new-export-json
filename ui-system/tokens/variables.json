@@ -1255,7 +1255,7 @@
           "type": "float"
         },
         "98": {
-          "value": 400,
+          "value": 390,
           "type": "float"
         },
         "px": {
@@ -1705,7 +1705,7 @@
           "type": "float"
         },
         "Icon Size": {
-          "value": 16,
+          "value": 8,
           "type": "float"
         }
       },
@@ -7771,7 +7771,7 @@
           "type": "float"
         }
       },
-      "Drag’ n’ Drop File Uploads": {
+      "Drag and Drop File Uploads": {
         "Bg Color": {
           "value": "#fffcfc",
           "type": "color"
