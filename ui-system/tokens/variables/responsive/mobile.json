@@ -1,7 +1,7 @@
 {
   "Responsive": {
     "Device Width": {
-      "value": 320,
+      "value": 390,
       "type": "float"
     },
     "Root Font Size": {
