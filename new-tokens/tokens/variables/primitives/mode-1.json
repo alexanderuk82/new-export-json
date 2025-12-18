@@ -1,0 +1,100 @@
+{
+  "primitives": {
+    "motion": {
+      "duration": {
+        "duration-50": {
+          "value": 50,
+          "type": "float",
+          "description": "Base micro-interaction timing"
+        },
+        "duration-100": {
+          "value": 100,
+          "type": "float",
+          "description": "Quick feedback timing"
+        },
+        "duration-200": {
+          "value": 200,
+          "type": "float",
+          "description": "Standard interaction timing"
+        },
+        "duration-300": {
+          "value": 300,
+          "type": "float",
+          "description": "Moderate transition timing"
+        },
+        "duration-500": {
+          "value": 500,
+          "type": "float",
+          "description": "Complex animation timing"
+        },
+        "duration-400": {
+          "value": 300,
+          "type": "float",
+          "description": "Extended transition timing"
+        }
+      },
+      "elevation": {
+        "elevation-0": {
+          "value": 0,
+          "type": "float",
+          "description": "Resting state, flat"
+        },
+        "elevation-1": {
+          "value": 1,
+          "type": "float",
+          "description": "Cards, raised buttons"
+        },
+        "elevation-2": {
+          "value": 3,
+          "type": "float",
+          "description": "Hover state, app barg"
+        },
+        "elevation-3": {
+          "value": 6,
+          "type": "float",
+          "description": "FAB, snackbar"
+        },
+        "elevation-4": {
+          "value": 8,
+          "type": "float",
+          "description": "Bottom sheet, menu"
+        },
+        "elevation-5": {
+          "value": 12,
+          "type": "float",
+          "description": "Dialogs, pickers"
+        }
+      },
+      "scale": {
+        "none": {
+          "value": 1,
+          "type": "float"
+        },
+        "scale-2": {
+          "value": 0.9800000190734863,
+          "type": "float"
+        },
+        "scale-3": {
+          "value": 0.949999988079071,
+          "type": "float"
+        },
+        "scale-4": {
+          "value": 0.8999999761581421,
+          "type": "float"
+        },
+        "scale-5": {
+          "value": 1.0199999809265137,
+          "type": "float"
+        },
+        "scale-6": {
+          "value": 1.0499999523162842,
+          "type": "float"
+        },
+        "scale-7": {
+          "value": 1.100000023841858,
+          "type": "float"
+        }
+      }
+    }
+  }
+}
