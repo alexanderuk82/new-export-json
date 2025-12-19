@@ -67,7 +67,7 @@
       },
       "scale": {
         "none": {
-          "value": 1,
+          "value": 0,
           "type": "float"
         },
         "scale-2": {
@@ -93,6 +93,16 @@
         "scale-7": {
           "value": 1.100000023841858,
           "type": "float"
+        }
+      }
+    },
+    "colour": {
+      "transparent": {
+        "black": {
+          "alpha5": {
+            "value": "#18181b0d",
+            "type": "color"
+          }
         }
       }
     }
