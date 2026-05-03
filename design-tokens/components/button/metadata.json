@@ -1,0 +1,49 @@
+{
+  "$schema": "https://figma-design-tokens.com/component-schema.json",
+  "name": "Button",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=22:5",
+  "lastModified": "2026-05-03T18:04:14.492Z",
+  "atomicLevel": "atom",
+  "structure": {
+    "hasVariants": true,
+    "variantCount": 3,
+    "propertyCount": 1
+  },
+  "properties": [
+    {
+      "name": "Button",
+      "type": "VARIANT",
+      "values": [
+        "Primary",
+        "Secondary",
+        "Ghost"
+      ],
+      "defaultValue": "Primary",
+      "optional": false
+    }
+  ],
+  "variants": [
+    {
+      "name": "Button=Primary",
+      "properties": {
+        "Button": "Primary"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=22:2"
+    },
+    {
+      "name": "Button=Secondary",
+      "properties": {
+        "Button": "Secondary"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=22:3"
+    },
+    {
+      "name": "Button=Ghost",
+      "properties": {
+        "Button": "Ghost"
+      },
+      "figmaUrl": "https://www.figma.com/file/undefined?node-id=22:4"
+    }
+  ]
+}

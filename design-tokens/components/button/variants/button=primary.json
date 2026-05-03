@@ -1,0 +1,32 @@
+{
+  "name": "Button=Primary",
+  "fullName": "Button/Button=Primary",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=22:2",
+  "properties": {
+    "Button": "Primary"
+  },
+  "styles": {
+    "backgroundColor": "var(--02-semantic-brand-default, #10B981)",
+    "borderRadius": "8px",
+    "padding": "8px 20px 8px 20px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "center",
+    "color": "var(--02-semantic-brand-text, #FFFFFF)",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "fontFamily": "Inter",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Primario"
+    ],
+    "labels": {
+      "Primario": "Primario"
+    }
+  },
+  "lastModified": "2026-05-03T18:04:14.504Z"
+}

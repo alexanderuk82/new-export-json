@@ -1,0 +1,33 @@
+{
+  "name": "Button=Secondary",
+  "fullName": "Button/Button=Secondary",
+  "description": "",
+  "figmaUrl": "https://www.figma.com/file/undefined?node-id=22:3",
+  "properties": {
+    "Button": "Secondary"
+  },
+  "styles": {
+    "backgroundColor": "var(--02-semantic-bg-surface, #FFFFFF)",
+    "border": "1px solid var(--02-semantic-border-strong, #D4D4D8)",
+    "borderRadius": "8px",
+    "padding": "8px 20px 8px 20px",
+    "display": "flex",
+    "flexDirection": "row",
+    "justifyContent": "flex-start",
+    "alignItems": "center",
+    "color": "var(--02-semantic-text-primary, #18181B)",
+    "fontSize": "14px",
+    "fontWeight": "500",
+    "fontFamily": "Inter",
+    "letterSpacing": "[object Object]px"
+  },
+  "content": {
+    "text": [
+      "Secundario"
+    ],
+    "labels": {
+      "Secundario": "Secundario"
+    }
+  },
+  "lastModified": "2026-05-03T18:04:14.514Z"
+}
